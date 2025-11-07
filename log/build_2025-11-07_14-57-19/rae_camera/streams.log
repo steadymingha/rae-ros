@@ -1,0 +1,443 @@
+[0.415s] Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_camera -DCMAKE_INSTALL_PREFIX=/ws/install/rae_camera
+[1.744s] -- The C compiler identification is GNU 11.4.0
+[2.493s] -- The CXX compiler identification is GNU 11.4.0
+[2.562s] -- Detecting C compiler ABI info
+[3.566s] -- Detecting C compiler ABI info - done
+[3.617s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.618s] -- Detecting C compile features
+[3.622s] -- Detecting C compile features - done
+[3.640s] -- Detecting CXX compiler ABI info
+[4.583s] -- Detecting CXX compiler ABI info - done
+[4.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.636s] -- Detecting CXX compile features
+[4.639s] -- Detecting CXX compile features - done
+[4.698s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.616s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.316s] -- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+[7.632s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.658s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.705s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.399s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.421s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.584s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.696s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.923s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.979s] -- Looking for pthread.h
+[11.020s] -- Looking for pthread.h - found
+[11.020s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.412s] -- Found Threads: TRUE  
+[14.706s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[14.825s] -- xtl v0.7.4
+[14.861s] -- Building xtensor v0.24.3
+[14.861s] -- Found xtl v0.7.4
+[14.957s] -- Found depthai_bridge: 2.8.2 (/underlay_ws/install/depthai_bridge/share/depthai_bridge/cmake)
+[21.057s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[21.063s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[21.064s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[21.207s] -- Found rtabmap_slam: 0.21.1 (/opt/ros/humble/share/rtabmap_slam/cmake)
+[28.974s] -- Checking for module 'eigen3'
+[29.173s] --   Found eigen3, version 3.4.0
+[29.608s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[29.609s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[29.823s] -- Checking for module 'flann'
+[30.027s] --   Found flann, version 1.9.1
+[30.527s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[30.529s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[41.634s] -- Checking for module 'libusb-1.0'
+[41.878s] --   Found libusb-1.0, version 1.0.25
+[42.316s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[42.322s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[42.934s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[43.865s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[43.907s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[43.951s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[44.861s] -- Found Qhull version 8.0.2
+[45.846s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[46.745s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[46.749s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[46.753s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[46.758s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[46.762s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[46.768s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[46.770s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[46.773s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[46.777s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[46.782s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[46.787s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[46.791s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[46.796s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[46.801s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[46.806s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[46.811s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[46.815s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[46.820s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[46.825s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[46.829s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[46.834s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[46.835s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[46.838s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[46.843s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[46.849s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[49.725s] -- Found depthai_ros_driver: 2.8.2 (/underlay_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake)
+[51.774s] -- Found ira_laser_tools: 2.0.7 (/underlay_ws/install/ira_laser_tools/share/ira_laser_tools/cmake)
+[52.933s] -- Found image_proc: 3.0.0 (/opt/ros/humble/share/image_proc/cmake)
+[53.132s] -- Found laserscan_kinect: 1.1.0 (/underlay_ws/install/laserscan_kinect/share/laserscan_kinect/cmake)
+[53.151s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") found components: imgproc highgui 
+[54.341s] -- Configuring done
+[54.400s] [33mCMake Warning (dev) at CMakeLists.txt:67 (add_executable):
+[54.400s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[54.401s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[54.401s]   command to set the policy and suppress this warning.
+[54.401s] 
+[54.402s]   File:
+[54.402s] 
+[54.402s]     /ws/src/rae-ros/rae_camera/src/perception_ipc_rtabmap.cpp
+[54.403s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[54.403s] [0m
+[54.968s] -- Generating done
+[54.988s] -- Build files have been written to: /ws/build/rae_camera
+[55.047s] Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_camera -DCMAKE_INSTALL_PREFIX=/ws/install/rae_camera
+[55.055s] Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_camera -- -j12 -l12
+[56.170s] [ 10%] [32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o[0m
+[93.996s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:[m[K In function ‘[01m[Kdai::Pipeline createPipeline(bool, bool)[m[K’:
+[93.997s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RGB[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[93.997s]    29 |      camRgb->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRGB[m[K);
+[93.998s]       |                                                     [01;35m[K^~~[m[K
+[93.998s] 
+[93.998s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[93.999s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[93.999s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.000s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.000s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.000s]    23 |     [01;36m[KRGB[m[K [[deprecated]] = CAM_A,
+[94.001s]       |     [01;36m[K^~~[m[K
+[94.001s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RGB[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.002s]    29 |      camRgb->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRGB[m[K);
+[94.002s]       |                                                     [01;35m[K^~~[m[K
+[94.002s] 
+[94.003s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.003s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.004s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.004s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.004s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.004s]    23 |     [01;36m[KRGB[m[K [[deprecated]] = CAM_A,
+[94.005s]       |     [01;36m[K^~~[m[K
+[94.017s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.017s]    58 |  leftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+[94.018s]       |                                                    [01;35m[K^~~~[m[K
+[94.018s] 
+[94.018s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.019s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.019s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.020s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.020s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.020s]    25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+[94.021s]       |     [01;36m[K^~~~[m[K
+[94.021s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.022s]    58 |  leftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+[94.022s]       |                                                    [01;35m[K^~~~[m[K
+[94.022s] 
+[94.023s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.023s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.023s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.024s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.024s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.024s]    25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+[94.025s]       |     [01;36m[K^~~~[m[K
+[94.025s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.025s]    60 | ightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+[94.026s]       |                                                   [01;35m[K^~~~~[m[K
+[94.026s] 
+[94.026s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.027s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.027s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.027s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.028s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.028s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[94.028s]       |     [01;36m[K^~~~~[m[K
+[94.029s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.029s]    60 | ightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+[94.030s]       |                                                   [01;35m[K^~~~~[m[K
+[94.030s] 
+[94.030s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.031s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.031s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.031s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.032s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.032s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[94.032s]       |     [01;36m[K^~~~~[m[K
+[94.140s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[94.142s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.142s]   198 | o(calibrationHandler, dai::CameraBoardSocket::[01;35m[KRIGHT[m[K, width, height);;
+[94.142s]       |                                               [01;35m[K^~~~~[m[K
+[94.143s] 
+[94.143s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.144s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.144s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.144s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.145s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.145s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[94.145s]       |     [01;36m[K^~~~~[m[K
+[94.146s] [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[94.146s]   198 | o(calibrationHandler, dai::CameraBoardSocket::[01;35m[KRIGHT[m[K, width, height);;
+[94.147s]       |                                               [01;35m[K^~~~~[m[K
+[94.147s] 
+[94.147s] In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+[94.148s]                  from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+[94.148s]                  from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+[94.148s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[94.149s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[94.149s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[94.149s]       |     [01;36m[K^~~~~[m[K
+[135.816s] [ 20%] [32m[1mLinking CXX executable camera[0m
+[139.137s] [ 20%] Built target camera
+[139.610s] [ 30%] [32mBuilding CXX object CMakeFiles/perception_ipc_rtabmap.dir/src/perception_ipc_rtabmap.cpp.o[0m
+[240.097s] [ 40%] [32m[1mLinking CXX executable perception_ipc_rtabmap[0m
+[245.779s] [ 40%] Built target perception_ipc_rtabmap
+[246.081s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_pair.dir/src/stereo_pair.cpp.o[0m
+[316.306s] [ 60%] [32m[1mLinking CXX executable stereo_pair[0m
+[318.662s] [ 60%] Built target stereo_pair
+[318.966s] [ 70%] [32mBuilding CXX object CMakeFiles/yolo.dir/src/yolo.cpp.o[0m
+[354.461s] [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[354.462s] [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[354.462s]    68 |   monoLeft->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+[354.462s]       |                                                    [01;35m[K^~~~[m[K
+[354.463s] 
+[354.463s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[354.463s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[354.464s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[354.464s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[354.464s]    25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+[354.465s]       |     [01;36m[K^~~~[m[K
+[354.465s] [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[354.466s]    68 |   monoLeft->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+[354.466s]       |                                                    [01;35m[K^~~~[m[K
+[354.466s] 
+[354.467s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[354.467s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[354.467s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[354.468s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[354.468s]    25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+[354.468s]       |     [01;36m[K^~~~[m[K
+[354.469s] [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[354.469s]    70 | monoRight->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+[354.469s]       |                                                   [01;35m[K^~~~~[m[K
+[354.470s] 
+[354.470s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[354.470s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[354.471s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[354.471s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[354.471s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[354.472s]       |     [01;36m[K^~~~~[m[K
+[354.472s] [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[354.472s]    70 | monoRight->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+[354.473s]       |                                                   [01;35m[K^~~~~[m[K
+[354.473s] 
+[354.474s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[354.474s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[354.474s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[354.475s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[354.475s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[354.475s]       |     [01;36m[K^~~~~[m[K
+[397.926s] [ 80%] [32m[1mLinking CXX executable yolo[0m
+[400.768s] [ 80%] Built target yolo
+[401.090s] [ 90%] [32mBuilding CXX object CMakeFiles/stereo_depth.dir/src/stereo_depth.cpp.o[0m
+[436.763s] [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[436.764s] [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[436.764s]    36 | oLeftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+[436.765s]       |                                                    [01;35m[K^~~~[m[K
+[436.765s] 
+[436.767s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[436.767s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[436.768s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[436.769s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[436.769s]    25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+[436.769s]       |     [01;36m[K^~~~[m[K
+[436.770s] [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[436.770s]    36 | oLeftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+[436.771s]       |                                                    [01;35m[K^~~~[m[K
+[436.771s] 
+[436.772s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[436.773s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[436.773s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[436.773s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[436.774s]    25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+[436.774s]       |     [01;36m[K^~~~[m[K
+[436.776s] [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[436.776s]    38 | ightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+[436.777s]       |                                                   [01;35m[K^~~~~[m[K
+[436.777s] 
+[436.778s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[436.778s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[436.779s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[436.779s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[436.780s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[436.780s]       |     [01;36m[K^~~~~[m[K
+[436.781s] [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[436.781s]    38 | ightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+[436.781s]       |                                                   [01;35m[K^~~~~[m[K
+[436.782s] 
+[436.782s] In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+[436.782s]                  from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+[436.783s]                  from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[436.783s] [01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[436.784s]    26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+[436.784s]       |     [01;36m[K^~~~~[m[K
+[473.520s] [100%] [32m[1mLinking CXX executable stereo_depth[0m
+[475.905s] [100%] Built target stereo_depth
+[476.020s] Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_camera -- -j12 -l12
+[477.024s] Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_camera
+[477.128s] -- Install configuration: ""
+[477.132s] -- Installing: /ws/install/rae_camera/lib/rae_camera/camera
+[477.151s] -- Set runtime path of "/ws/install/rae_camera/lib/rae_camera/camera" to "/underlay_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/underlay_ws/install/depthai_ros_msgs/lib:/usr/local/lib"
+[477.152s] -- Installing: /ws/install/rae_camera/lib/rae_camera/stereo_depth
+[477.162s] -- Set runtime path of "/ws/install/rae_camera/lib/rae_camera/stereo_depth" to "/underlay_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/underlay_ws/install/depthai_ros_msgs/lib:/usr/local/lib"
+[477.163s] -- Installing: /ws/install/rae_camera/lib/rae_camera/stereo_pair
+[477.171s] -- Set runtime path of "/ws/install/rae_camera/lib/rae_camera/stereo_pair" to "/underlay_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/underlay_ws/install/depthai_ros_msgs/lib:/usr/local/lib"
+[477.171s] -- Installing: /ws/install/rae_camera/lib/rae_camera/yolo
+[477.183s] -- Set runtime path of "/ws/install/rae_camera/lib/rae_camera/yolo" to "/underlay_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/underlay_ws/install/depthai_ros_msgs/lib:/usr/local/lib"
+[477.184s] -- Installing: /ws/install/rae_camera/lib/rae_camera/perception_ipc_rtabmap
+[477.189s] -- Set runtime path of "/ws/install/rae_camera/lib/rae_camera/perception_ipc_rtabmap" to "/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/underlay_ws/install/depthai_ros_driver/lib:/underlay_ws/install/ira_laser_tools/lib:/underlay_ws/install/laserscan_kinect/lib:/underlay_ws/install/depthai_bridge/lib:/underlay_ws/install/depthai_ros_msgs/lib:/usr/local/lib"
+[477.189s] -- Installing: /ws/install/rae_camera/share/rae_camera/launch
+[477.190s] -- Installing: /ws/install/rae_camera/share/rae_camera/launch/rae_camera.launch.py
+[477.190s] -- Installing: /ws/install/rae_camera/share/rae_camera/launch/perception_ipc.launch.py
+[477.192s] -- Installing: /ws/install/rae_camera/share/rae_camera/config
+[477.192s] -- Installing: /ws/install/rae_camera/share/rae_camera/config/laserscan_kinect.yaml
+[477.192s] -- Installing: /ws/install/rae_camera/share/rae_camera/config/camera.yaml
+[477.193s] -- Installing: /ws/install/rae_camera/share/rae_camera/config/ipc.yaml
+[477.193s] -- Installing: /ws/install/rae_camera/share/rae_camera/config/cal.json
+[477.194s] -- Installing: /ws/install/rae_camera/share/rae_camera/config/yolo.json
+[477.194s] -- Installing: /ws/install/rae_camera/share/ament_index/resource_index/package_run_dependencies/rae_camera
+[477.194s] -- Installing: /ws/install/rae_camera/share/ament_index/resource_index/parent_prefix_path/rae_camera
+[477.195s] -- Installing: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.sh
+[477.195s] -- Installing: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.dsv
+[477.196s] -- Installing: /ws/install/rae_camera/share/rae_camera/environment/path.sh
+[477.196s] -- Installing: /ws/install/rae_camera/share/rae_camera/environment/path.dsv
+[477.197s] -- Installing: /ws/install/rae_camera/share/rae_camera/local_setup.bash
+[477.197s] -- Installing: /ws/install/rae_camera/share/rae_camera/local_setup.sh
+[477.197s] -- Installing: /ws/install/rae_camera/share/rae_camera/local_setup.zsh
+[477.198s] -- Installing: /ws/install/rae_camera/share/rae_camera/local_setup.dsv
+[477.198s] -- Installing: /ws/install/rae_camera/share/rae_camera/package.dsv
+[477.199s] -- Installing: /ws/install/rae_camera/share/ament_index/resource_index/packages/rae_camera
+[477.199s] -- Installing: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[477.199s] -- Installing: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[477.200s] -- Installing: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig.cmake
+[477.200s] -- Installing: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig-version.cmake
+[477.200s] -- Installing: /ws/install/rae_camera/share/rae_camera/package.xml
+[477.202s] -- Installing: /ws/install/rae_camera/include/xtl/xany.hpp
+[477.202s] -- Installing: /ws/install/rae_camera/include/xtl/xbasic_fixed_string.hpp
+[477.203s] -- Installing: /ws/install/rae_camera/include/xtl/xbase64.hpp
+[477.207s] -- Installing: /ws/install/rae_camera/include/xtl/xclosure.hpp
+[477.208s] -- Installing: /ws/install/rae_camera/include/xtl/xcomplex.hpp
+[477.208s] -- Installing: /ws/install/rae_camera/include/xtl/xcomplex_sequence.hpp
+[477.209s] -- Installing: /ws/install/rae_camera/include/xtl/xspan.hpp
+[477.209s] -- Installing: /ws/install/rae_camera/include/xtl/xspan_impl.hpp
+[477.210s] -- Installing: /ws/install/rae_camera/include/xtl/xdynamic_bitset.hpp
+[477.210s] -- Installing: /ws/install/rae_camera/include/xtl/xfunctional.hpp
+[477.211s] -- Installing: /ws/install/rae_camera/include/xtl/xhalf_float.hpp
+[477.211s] -- Installing: /ws/install/rae_camera/include/xtl/xhalf_float_impl.hpp
+[477.212s] -- Installing: /ws/install/rae_camera/include/xtl/xhash.hpp
+[477.212s] -- Installing: /ws/install/rae_camera/include/xtl/xhierarchy_generator.hpp
+[477.212s] -- Installing: /ws/install/rae_camera/include/xtl/xiterator_base.hpp
+[477.213s] -- Installing: /ws/install/rae_camera/include/xtl/xjson.hpp
+[477.213s] -- Installing: /ws/install/rae_camera/include/xtl/xmasked_value_meta.hpp
+[477.214s] -- Installing: /ws/install/rae_camera/include/xtl/xmasked_value.hpp
+[477.214s] -- Installing: /ws/install/rae_camera/include/xtl/xmeta_utils.hpp
+[477.214s] -- Installing: /ws/install/rae_camera/include/xtl/xmultimethods.hpp
+[477.214s] -- Installing: /ws/install/rae_camera/include/xtl/xoptional_meta.hpp
+[477.215s] -- Installing: /ws/install/rae_camera/include/xtl/xoptional.hpp
+[477.215s] -- Installing: /ws/install/rae_camera/include/xtl/xoptional_sequence.hpp
+[477.215s] -- Installing: /ws/install/rae_camera/include/xtl/xplatform.hpp
+[477.216s] -- Installing: /ws/install/rae_camera/include/xtl/xproxy_wrapper.hpp
+[477.216s] -- Installing: /ws/install/rae_camera/include/xtl/xsequence.hpp
+[477.217s] -- Installing: /ws/install/rae_camera/include/xtl/xsystem.hpp
+[477.217s] -- Installing: /ws/install/rae_camera/include/xtl/xtl_config.hpp
+[477.218s] -- Installing: /ws/install/rae_camera/include/xtl/xtype_traits.hpp
+[477.218s] -- Installing: /ws/install/rae_camera/include/xtl/xvariant.hpp
+[477.219s] -- Installing: /ws/install/rae_camera/include/xtl/xvariant_impl.hpp
+[477.219s] -- Installing: /ws/install/rae_camera/include/xtl/xvisitor.hpp
+[477.220s] -- Installing: /ws/install/rae_camera/share/cmake/xtl/xtlConfig.cmake
+[477.221s] -- Installing: /ws/install/rae_camera/share/cmake/xtl/xtlConfigVersion.cmake
+[477.221s] -- Installing: /ws/install/rae_camera/share/cmake/xtl/xtlTargets.cmake
+[477.222s] -- Installing: /ws/install/rae_camera/share/pkgconfig/xtl.pc
+[477.222s] -- Installing: /ws/install/rae_camera/include/xtensor/xaccessible.hpp
+[477.222s] -- Installing: /ws/install/rae_camera/include/xtensor/xaccumulator.hpp
+[477.223s] -- Installing: /ws/install/rae_camera/include/xtensor/xadapt.hpp
+[477.223s] -- Installing: /ws/install/rae_camera/include/xtensor/xarray.hpp
+[477.224s] -- Installing: /ws/install/rae_camera/include/xtensor/xassign.hpp
+[477.224s] -- Installing: /ws/install/rae_camera/include/xtensor/xaxis_iterator.hpp
+[477.225s] -- Installing: /ws/install/rae_camera/include/xtensor/xaxis_slice_iterator.hpp
+[477.225s] -- Installing: /ws/install/rae_camera/include/xtensor/xblockwise_reducer.hpp
+[477.226s] -- Installing: /ws/install/rae_camera/include/xtensor/xblockwise_reducer_functors.hpp
+[477.226s] -- Installing: /ws/install/rae_camera/include/xtensor/xbroadcast.hpp
+[477.227s] -- Installing: /ws/install/rae_camera/include/xtensor/xbuffer_adaptor.hpp
+[477.228s] -- Installing: /ws/install/rae_camera/include/xtensor/xbuilder.hpp
+[477.228s] -- Installing: /ws/install/rae_camera/include/xtensor/xchunked_array.hpp
+[477.229s] -- Installing: /ws/install/rae_camera/include/xtensor/xchunked_assign.hpp
+[477.229s] -- Installing: /ws/install/rae_camera/include/xtensor/xchunked_view.hpp
+[477.230s] -- Installing: /ws/install/rae_camera/include/xtensor/xcomplex.hpp
+[477.230s] -- Installing: /ws/install/rae_camera/include/xtensor/xcontainer.hpp
+[477.231s] -- Installing: /ws/install/rae_camera/include/xtensor/xcsv.hpp
+[477.231s] -- Installing: /ws/install/rae_camera/include/xtensor/xdynamic_view.hpp
+[477.232s] -- Installing: /ws/install/rae_camera/include/xtensor/xeval.hpp
+[477.232s] -- Installing: /ws/install/rae_camera/include/xtensor/xexception.hpp
+[477.232s] -- Installing: /ws/install/rae_camera/include/xtensor/xexpression.hpp
+[477.233s] -- Installing: /ws/install/rae_camera/include/xtensor/xexpression_holder.hpp
+[477.233s] -- Installing: /ws/install/rae_camera/include/xtensor/xexpression_traits.hpp
+[477.234s] -- Installing: /ws/install/rae_camera/include/xtensor/xfixed.hpp
+[477.234s] -- Installing: /ws/install/rae_camera/include/xtensor/xfunction.hpp
+[477.235s] -- Installing: /ws/install/rae_camera/include/xtensor/xfunctor_view.hpp
+[477.235s] -- Installing: /ws/install/rae_camera/include/xtensor/xgenerator.hpp
+[477.235s] -- Installing: /ws/install/rae_camera/include/xtensor/xhistogram.hpp
+[477.236s] -- Installing: /ws/install/rae_camera/include/xtensor/xindex_view.hpp
+[477.236s] -- Installing: /ws/install/rae_camera/include/xtensor/xinfo.hpp
+[477.236s] -- Installing: /ws/install/rae_camera/include/xtensor/xio.hpp
+[477.237s] -- Installing: /ws/install/rae_camera/include/xtensor/xiterable.hpp
+[477.237s] -- Installing: /ws/install/rae_camera/include/xtensor/xiterator.hpp
+[477.237s] -- Installing: /ws/install/rae_camera/include/xtensor/xjson.hpp
+[477.238s] -- Installing: /ws/install/rae_camera/include/xtensor/xlayout.hpp
+[477.238s] -- Installing: /ws/install/rae_camera/include/xtensor/xmanipulation.hpp
+[477.238s] -- Installing: /ws/install/rae_camera/include/xtensor/xmasked_view.hpp
+[477.239s] -- Installing: /ws/install/rae_camera/include/xtensor/xmath.hpp
+[477.239s] -- Installing: /ws/install/rae_camera/include/xtensor/xmime.hpp
+[477.239s] -- Installing: /ws/install/rae_camera/include/xtensor/xmultiindex_iterator.hpp
+[477.240s] -- Installing: /ws/install/rae_camera/include/xtensor/xnoalias.hpp
+[477.240s] -- Installing: /ws/install/rae_camera/include/xtensor/xnorm.hpp
+[477.240s] -- Installing: /ws/install/rae_camera/include/xtensor/xnpy.hpp
+[477.241s] -- Installing: /ws/install/rae_camera/include/xtensor/xoffset_view.hpp
+[477.241s] -- Installing: /ws/install/rae_camera/include/xtensor/xoperation.hpp
+[477.241s] -- Installing: /ws/install/rae_camera/include/xtensor/xoptional.hpp
+[477.241s] -- Installing: /ws/install/rae_camera/include/xtensor/xoptional_assembly.hpp
+[477.242s] -- Installing: /ws/install/rae_camera/include/xtensor/xoptional_assembly_base.hpp
+[477.242s] -- Installing: /ws/install/rae_camera/include/xtensor/xoptional_assembly_storage.hpp
+[477.242s] -- Installing: /ws/install/rae_camera/include/xtensor/xpad.hpp
+[477.243s] -- Installing: /ws/install/rae_camera/include/xtensor/xrandom.hpp
+[477.243s] -- Installing: /ws/install/rae_camera/include/xtensor/xreducer.hpp
+[477.243s] -- Installing: /ws/install/rae_camera/include/xtensor/xrepeat.hpp
+[477.244s] -- Installing: /ws/install/rae_camera/include/xtensor/xscalar.hpp
+[477.244s] -- Installing: /ws/install/rae_camera/include/xtensor/xsemantic.hpp
+[477.244s] -- Installing: /ws/install/rae_camera/include/xtensor/xset_operation.hpp
+[477.245s] -- Installing: /ws/install/rae_camera/include/xtensor/xshape.hpp
+[477.245s] -- Installing: /ws/install/rae_camera/include/xtensor/xslice.hpp
+[477.245s] -- Installing: /ws/install/rae_camera/include/xtensor/xsort.hpp
+[477.246s] -- Installing: /ws/install/rae_camera/include/xtensor/xstorage.hpp
+[477.246s] -- Installing: /ws/install/rae_camera/include/xtensor/xstrided_view.hpp
+[477.251s] -- Installing: /ws/install/rae_camera/include/xtensor/xstrided_view_base.hpp
+[477.252s] -- Installing: /ws/install/rae_camera/include/xtensor/xstrides.hpp
+[477.254s] -- Installing: /ws/install/rae_camera/include/xtensor/xtensor.hpp
+[477.256s] -- Installing: /ws/install/rae_camera/include/xtensor/xtensor_config.hpp
+[477.257s] -- Installing: /ws/install/rae_camera/include/xtensor/xtensor_forward.hpp
+[477.259s] -- Installing: /ws/install/rae_camera/include/xtensor/xtensor_simd.hpp
+[477.261s] -- Installing: /ws/install/rae_camera/include/xtensor/xutils.hpp
+[477.262s] -- Installing: /ws/install/rae_camera/include/xtensor/xvectorize.hpp
+[477.262s] -- Installing: /ws/install/rae_camera/include/xtensor/xview.hpp
+[477.263s] -- Installing: /ws/install/rae_camera/include/xtensor/xview_utils.hpp
+[477.263s] -- Installing: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfig.cmake
+[477.264s] -- Installing: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfigVersion.cmake
+[477.264s] -- Installing: /ws/install/rae_camera/lib/cmake/xtensor/xtensorTargets.cmake
+[477.266s] -- Installing: /ws/install/rae_camera/lib/pkgconfig/xtensor.pc
+[477.267s] -- Installing: /ws/install/rae_camera/include/xtensor.hpp
+[477.268s] Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_camera

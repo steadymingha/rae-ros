@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rae_msgs/msg/LEDControl.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/ColorRGBA.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rae_msgs {
+  module msg {
+    module LEDControl_Constants {
+      const uint8 CTRL_TYPE_ALL = 0;
+      const uint8 CTRL_TYPE_SINGLE = 1;
+      const uint8 CTRL_TYPE_CUSTOM = 2;
+      const uint8 DISP_TYPE_STD = 0;
+      const uint8 DISP_TYPE_FLASH = 1;
+      const uint8 DISP_TYPE_CIRCLE = 2;
+    };
+    @verbatim (language="comment", text=
+      "This message contains uncompressed audio")
+    struct LEDControl {
+      std_msgs::msg::Header header;
+
+      sequence<std_msgs::msg::ColorRGBA> data;
+
+      uint8 single_led_n;
+
+      uint8 control_type;
+
+      uint8 display_type;
+    };
+  };
+};

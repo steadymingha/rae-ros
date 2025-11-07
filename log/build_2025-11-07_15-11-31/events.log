@@ -1,0 +1,1013 @@
+[0.000000] (-) TimerEvent: {}
+[0.009929] (-) JobUnselected: {'identifier': 'rae_bringup'}
+[0.010323] (-) JobUnselected: {'identifier': 'rae_description'}
+[0.010445] (-) JobUnselected: {'identifier': 'rae_hw'}
+[0.010551] (-) JobUnselected: {'identifier': 'rae_msgs'}
+[0.010750] (rae_camera) JobQueued: {'identifier': 'rae_camera', 'dependencies': OrderedDict()}
+[0.011223] (rae_camera) JobStarted: {'identifier': 'rae_camera'}
+[0.094266] (-) TimerEvent: {}
+[0.195111] (-) TimerEvent: {}
+[0.296034] (-) TimerEvent: {}
+[0.396701] (-) TimerEvent: {}
+[0.428771] (rae_camera) JobProgress: {'identifier': 'rae_camera', 'progress': 'cmake'}
+[0.434097] (rae_camera) JobProgress: {'identifier': 'rae_camera', 'progress': 'build'}
+[0.438533] (rae_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/rae_camera', '--', '-j12', '-l12'], 'cwd': '/ws/build/rae_camera', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/ws/install/rae_msgs/local/lib/python3.10/dist-packages:/ws/install/rae_bringup/local/lib/python3.10/dist-packages:/underlay_ws/build/gst_pipeline:/underlay_ws/install/gst_pipeline/lib/python3.10/site-packages:/underlay_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/underlay_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/underlay_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ws/build/rae_camera'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_pipeline:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LANG', 'C.UTF-8'), ('DISPLAY', ':0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/ws/install:/underlay_ws/install'), ('UNDERLAY_WS', '/underlay_ws'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/ws/install'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/ws/install/rae_hw/lib:/ws/install/rae_msgs/lib:/underlay_ws/install/nav_layer_from_points/lib:/underlay_ws/install/laserscan_kinect/lib:/underlay_ws/install/ira_laser_tools/lib:/underlay_ws/install/gst_bridge/lib:/underlay_ws/install/depthai_ros_driver/lib:/underlay_ws/install/depthai_filters/lib:/underlay_ws/install/depthai_bridge/lib:/underlay_ws/install/depthai_ros_msgs/lib:/underlay_ws/install/depth_sensor_pose/lib:/underlay_ws/install/cliff_detector/lib:/underlay_ws/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', 'MH-pc'), ('WS', '/ws')]), 'shell': False}
+[0.497051] (-) TimerEvent: {}
+[0.598181] (-) TimerEvent: {}
+[0.699195] (-) TimerEvent: {}
+[0.800208] (-) TimerEvent: {}
+[0.901233] (-) TimerEvent: {}
+[1.002268] (-) TimerEvent: {}
+[1.092868] (rae_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera\x1b[0m\n'}
+[1.102343] (-) TimerEvent: {}
+[1.114028] (rae_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target perception_ipc_rtabmap\x1b[0m\n'}
+[1.116889] (rae_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo_depth\x1b[0m\n'}
+[1.119828] (rae_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yolo\x1b[0m\n'}
+[1.171893] (rae_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo_pair\x1b[0m\n'}
+[1.202633] (-) TimerEvent: {}
+[1.303640] (-) TimerEvent: {}
+[1.343240] (rae_camera) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/camera.dir/src/camera.cpp.o\x1b[0m\n'}
+[1.385331] (rae_camera) StdoutLine: {'line': b'[ 30%] Built target yolo\n'}
+[1.396977] (rae_camera) StdoutLine: {'line': b'[ 50%] Built target stereo_depth\n'}
+[1.412306] (-) TimerEvent: {}
+[1.466459] (rae_camera) StdoutLine: {'line': b'[ 70%] Built target stereo_pair\n'}
+[1.477974] (rae_camera) StdoutLine: {'line': b'[ 90%] Built target perception_ipc_rtabmap\n'}
+[1.512463] (-) TimerEvent: {}
+[1.613617] (-) TimerEvent: {}
+[1.714823] (-) TimerEvent: {}
+[1.815743] (-) TimerEvent: {}
+[1.917138] (-) TimerEvent: {}
+[2.018442] (-) TimerEvent: {}
+[2.119630] (-) TimerEvent: {}
+[2.220592] (-) TimerEvent: {}
+[2.321482] (-) TimerEvent: {}
+[2.422392] (-) TimerEvent: {}
+[2.523248] (-) TimerEvent: {}
+[2.624143] (-) TimerEvent: {}
+[2.724991] (-) TimerEvent: {}
+[2.825850] (-) TimerEvent: {}
+[2.926772] (-) TimerEvent: {}
+[3.027787] (-) TimerEvent: {}
+[3.128850] (-) TimerEvent: {}
+[3.229918] (-) TimerEvent: {}
+[3.330745] (-) TimerEvent: {}
+[3.431393] (-) TimerEvent: {}
+[3.532348] (-) TimerEvent: {}
+[3.633319] (-) TimerEvent: {}
+[3.734236] (-) TimerEvent: {}
+[3.840736] (-) TimerEvent: {}
+[3.942704] (-) TimerEvent: {}
+[4.043990] (-) TimerEvent: {}
+[4.145317] (-) TimerEvent: {}
+[4.246552] (-) TimerEvent: {}
+[4.347482] (-) TimerEvent: {}
+[4.448367] (-) TimerEvent: {}
+[4.549555] (-) TimerEvent: {}
+[4.650671] (-) TimerEvent: {}
+[4.751604] (-) TimerEvent: {}
+[4.852635] (-) TimerEvent: {}
+[4.953670] (-) TimerEvent: {}
+[5.054982] (-) TimerEvent: {}
+[5.157661] (-) TimerEvent: {}
+[5.258996] (-) TimerEvent: {}
+[5.360384] (-) TimerEvent: {}
+[5.461621] (-) TimerEvent: {}
+[5.562495] (-) TimerEvent: {}
+[5.663338] (-) TimerEvent: {}
+[5.764289] (-) TimerEvent: {}
+[5.865441] (-) TimerEvent: {}
+[5.966396] (-) TimerEvent: {}
+[6.067350] (-) TimerEvent: {}
+[6.168439] (-) TimerEvent: {}
+[6.269684] (-) TimerEvent: {}
+[6.370847] (-) TimerEvent: {}
+[6.472122] (-) TimerEvent: {}
+[6.573329] (-) TimerEvent: {}
+[6.674346] (-) TimerEvent: {}
+[6.775285] (-) TimerEvent: {}
+[6.876334] (-) TimerEvent: {}
+[6.977406] (-) TimerEvent: {}
+[7.078294] (-) TimerEvent: {}
+[7.179024] (-) TimerEvent: {}
+[7.279885] (-) TimerEvent: {}
+[7.381216] (-) TimerEvent: {}
+[7.482429] (-) TimerEvent: {}
+[7.583721] (-) TimerEvent: {}
+[7.684945] (-) TimerEvent: {}
+[7.785969] (-) TimerEvent: {}
+[7.886923] (-) TimerEvent: {}
+[7.987772] (-) TimerEvent: {}
+[8.088744] (-) TimerEvent: {}
+[8.189857] (-) TimerEvent: {}
+[8.290928] (-) TimerEvent: {}
+[8.392082] (-) TimerEvent: {}
+[8.493230] (-) TimerEvent: {}
+[8.594403] (-) TimerEvent: {}
+[8.695616] (-) TimerEvent: {}
+[8.797031] (-) TimerEvent: {}
+[8.898023] (-) TimerEvent: {}
+[8.999003] (-) TimerEvent: {}
+[9.099940] (-) TimerEvent: {}
+[9.200799] (-) TimerEvent: {}
+[9.301578] (-) TimerEvent: {}
+[9.402404] (-) TimerEvent: {}
+[9.503413] (-) TimerEvent: {}
+[9.605617] (-) TimerEvent: {}
+[9.707065] (-) TimerEvent: {}
+[9.808100] (-) TimerEvent: {}
+[9.909116] (-) TimerEvent: {}
+[10.011694] (-) TimerEvent: {}
+[10.113026] (-) TimerEvent: {}
+[10.214366] (-) TimerEvent: {}
+[10.315699] (-) TimerEvent: {}
+[10.417023] (-) TimerEvent: {}
+[10.518320] (-) TimerEvent: {}
+[10.619578] (-) TimerEvent: {}
+[10.720681] (-) TimerEvent: {}
+[10.821748] (-) TimerEvent: {}
+[10.922778] (-) TimerEvent: {}
+[11.023817] (-) TimerEvent: {}
+[11.125180] (-) TimerEvent: {}
+[11.226532] (-) TimerEvent: {}
+[11.327933] (-) TimerEvent: {}
+[11.429402] (-) TimerEvent: {}
+[11.530767] (-) TimerEvent: {}
+[11.632076] (-) TimerEvent: {}
+[11.733379] (-) TimerEvent: {}
+[11.834651] (-) TimerEvent: {}
+[11.935795] (-) TimerEvent: {}
+[12.036771] (-) TimerEvent: {}
+[12.137679] (-) TimerEvent: {}
+[12.239086] (-) TimerEvent: {}
+[12.340461] (-) TimerEvent: {}
+[12.441846] (-) TimerEvent: {}
+[12.543152] (-) TimerEvent: {}
+[12.644462] (-) TimerEvent: {}
+[12.745823] (-) TimerEvent: {}
+[12.847197] (-) TimerEvent: {}
+[12.948478] (-) TimerEvent: {}
+[13.049898] (-) TimerEvent: {}
+[13.151331] (-) TimerEvent: {}
+[13.252644] (-) TimerEvent: {}
+[13.353958] (-) TimerEvent: {}
+[13.455264] (-) TimerEvent: {}
+[13.556550] (-) TimerEvent: {}
+[13.657907] (-) TimerEvent: {}
+[13.759307] (-) TimerEvent: {}
+[13.860709] (-) TimerEvent: {}
+[13.968488] (-) TimerEvent: {}
+[14.069899] (-) TimerEvent: {}
+[14.171223] (-) TimerEvent: {}
+[14.272644] (-) TimerEvent: {}
+[14.374080] (-) TimerEvent: {}
+[14.475393] (-) TimerEvent: {}
+[14.576531] (-) TimerEvent: {}
+[14.677555] (-) TimerEvent: {}
+[14.778565] (-) TimerEvent: {}
+[14.879518] (-) TimerEvent: {}
+[14.980453] (-) TimerEvent: {}
+[15.081458] (-) TimerEvent: {}
+[15.182451] (-) TimerEvent: {}
+[15.283859] (-) TimerEvent: {}
+[15.385228] (-) TimerEvent: {}
+[15.486510] (-) TimerEvent: {}
+[15.587819] (-) TimerEvent: {}
+[15.689144] (-) TimerEvent: {}
+[15.790518] (-) TimerEvent: {}
+[15.891916] (-) TimerEvent: {}
+[15.993328] (-) TimerEvent: {}
+[16.094713] (-) TimerEvent: {}
+[16.196079] (-) TimerEvent: {}
+[16.297480] (-) TimerEvent: {}
+[16.398760] (-) TimerEvent: {}
+[16.500031] (-) TimerEvent: {}
+[16.601435] (-) TimerEvent: {}
+[16.702814] (-) TimerEvent: {}
+[16.804192] (-) TimerEvent: {}
+[16.905501] (-) TimerEvent: {}
+[17.006821] (-) TimerEvent: {}
+[17.107916] (-) TimerEvent: {}
+[17.208885] (-) TimerEvent: {}
+[17.309829] (-) TimerEvent: {}
+[17.410775] (-) TimerEvent: {}
+[17.511679] (-) TimerEvent: {}
+[17.612643] (-) TimerEvent: {}
+[17.713609] (-) TimerEvent: {}
+[17.814593] (-) TimerEvent: {}
+[17.915560] (-) TimerEvent: {}
+[18.016563] (-) TimerEvent: {}
+[18.117933] (-) TimerEvent: {}
+[18.219294] (-) TimerEvent: {}
+[18.320676] (-) TimerEvent: {}
+[18.422011] (-) TimerEvent: {}
+[18.523075] (-) TimerEvent: {}
+[18.624167] (-) TimerEvent: {}
+[18.725516] (-) TimerEvent: {}
+[18.826909] (-) TimerEvent: {}
+[18.928267] (-) TimerEvent: {}
+[19.029591] (-) TimerEvent: {}
+[19.131036] (-) TimerEvent: {}
+[19.232446] (-) TimerEvent: {}
+[19.333751] (-) TimerEvent: {}
+[19.435113] (-) TimerEvent: {}
+[19.536495] (-) TimerEvent: {}
+[19.637785] (-) TimerEvent: {}
+[19.739063] (-) TimerEvent: {}
+[19.840390] (-) TimerEvent: {}
+[19.941619] (-) TimerEvent: {}
+[20.042874] (-) TimerEvent: {}
+[20.144164] (-) TimerEvent: {}
+[20.245439] (-) TimerEvent: {}
+[20.346758] (-) TimerEvent: {}
+[20.448092] (-) TimerEvent: {}
+[20.556494] (-) TimerEvent: {}
+[20.657489] (-) TimerEvent: {}
+[20.758454] (-) TimerEvent: {}
+[20.859274] (-) TimerEvent: {}
+[20.960066] (-) TimerEvent: {}
+[21.061443] (-) TimerEvent: {}
+[21.162846] (-) TimerEvent: {}
+[21.264186] (-) TimerEvent: {}
+[21.365597] (-) TimerEvent: {}
+[21.466964] (-) TimerEvent: {}
+[21.568394] (-) TimerEvent: {}
+[21.670514] (-) TimerEvent: {}
+[21.771870] (-) TimerEvent: {}
+[21.873208] (-) TimerEvent: {}
+[21.974529] (-) TimerEvent: {}
+[22.075595] (-) TimerEvent: {}
+[22.176561] (-) TimerEvent: {}
+[22.277519] (-) TimerEvent: {}
+[22.378516] (-) TimerEvent: {}
+[22.479507] (-) TimerEvent: {}
+[22.580526] (-) TimerEvent: {}
+[22.681861] (-) TimerEvent: {}
+[22.783198] (-) TimerEvent: {}
+[22.884512] (-) TimerEvent: {}
+[22.985786] (-) TimerEvent: {}
+[23.086985] (-) TimerEvent: {}
+[23.188042] (-) TimerEvent: {}
+[23.289370] (-) TimerEvent: {}
+[23.390684] (-) TimerEvent: {}
+[23.492006] (-) TimerEvent: {}
+[23.593480] (-) TimerEvent: {}
+[23.694924] (-) TimerEvent: {}
+[23.796325] (-) TimerEvent: {}
+[23.897739] (-) TimerEvent: {}
+[23.999096] (-) TimerEvent: {}
+[24.100090] (-) TimerEvent: {}
+[24.201075] (-) TimerEvent: {}
+[24.302002] (-) TimerEvent: {}
+[24.402848] (-) TimerEvent: {}
+[24.503708] (-) TimerEvent: {}
+[24.604828] (-) TimerEvent: {}
+[24.705873] (-) TimerEvent: {}
+[24.806815] (-) TimerEvent: {}
+[24.907816] (-) TimerEvent: {}
+[25.008959] (-) TimerEvent: {}
+[25.109985] (-) TimerEvent: {}
+[25.210966] (-) TimerEvent: {}
+[25.311944] (-) TimerEvent: {}
+[25.412927] (-) TimerEvent: {}
+[25.513835] (-) TimerEvent: {}
+[25.614720] (-) TimerEvent: {}
+[25.715725] (-) TimerEvent: {}
+[25.816778] (-) TimerEvent: {}
+[25.917743] (-) TimerEvent: {}
+[26.019068] (-) TimerEvent: {}
+[26.120368] (-) TimerEvent: {}
+[26.221377] (-) TimerEvent: {}
+[26.322578] (-) TimerEvent: {}
+[26.423910] (-) TimerEvent: {}
+[26.525268] (-) TimerEvent: {}
+[26.626644] (-) TimerEvent: {}
+[26.728011] (-) TimerEvent: {}
+[26.829405] (-) TimerEvent: {}
+[26.930730] (-) TimerEvent: {}
+[27.031841] (-) TimerEvent: {}
+[27.132856] (-) TimerEvent: {}
+[27.233705] (-) TimerEvent: {}
+[27.334602] (-) TimerEvent: {}
+[27.435845] (-) TimerEvent: {}
+[27.536953] (-) TimerEvent: {}
+[27.638071] (-) TimerEvent: {}
+[27.739257] (-) TimerEvent: {}
+[27.840300] (-) TimerEvent: {}
+[27.941863] (-) TimerEvent: {}
+[28.043441] (-) TimerEvent: {}
+[28.145053] (-) TimerEvent: {}
+[28.246627] (-) TimerEvent: {}
+[28.348250] (-) TimerEvent: {}
+[28.449790] (-) TimerEvent: {}
+[28.551357] (-) TimerEvent: {}
+[28.652915] (-) TimerEvent: {}
+[28.754515] (-) TimerEvent: {}
+[28.856022] (-) TimerEvent: {}
+[28.957546] (-) TimerEvent: {}
+[29.059031] (-) TimerEvent: {}
+[29.160497] (-) TimerEvent: {}
+[29.261961] (-) TimerEvent: {}
+[29.363456] (-) TimerEvent: {}
+[29.464709] (-) TimerEvent: {}
+[29.566273] (-) TimerEvent: {}
+[29.667772] (-) TimerEvent: {}
+[29.769284] (-) TimerEvent: {}
+[29.870827] (-) TimerEvent: {}
+[29.971974] (-) TimerEvent: {}
+[30.073123] (-) TimerEvent: {}
+[30.174181] (-) TimerEvent: {}
+[30.275332] (-) TimerEvent: {}
+[30.376523] (-) TimerEvent: {}
+[30.478148] (-) TimerEvent: {}
+[30.579646] (-) TimerEvent: {}
+[30.681134] (-) TimerEvent: {}
+[30.782644] (-) TimerEvent: {}
+[30.884117] (-) TimerEvent: {}
+[30.985556] (-) TimerEvent: {}
+[31.087385] (-) TimerEvent: {}
+[31.188918] (-) TimerEvent: {}
+[31.290391] (-) TimerEvent: {}
+[31.391865] (-) TimerEvent: {}
+[31.493453] (-) TimerEvent: {}
+[31.594907] (-) TimerEvent: {}
+[31.696281] (-) TimerEvent: {}
+[31.797681] (-) TimerEvent: {}
+[31.898742] (-) TimerEvent: {}
+[31.999807] (-) TimerEvent: {}
+[32.100965] (-) TimerEvent: {}
+[32.202044] (-) TimerEvent: {}
+[32.303074] (-) TimerEvent: {}
+[32.404096] (-) TimerEvent: {}
+[32.505117] (-) TimerEvent: {}
+[32.606146] (-) TimerEvent: {}
+[32.707169] (-) TimerEvent: {}
+[32.808228] (-) TimerEvent: {}
+[32.909609] (-) TimerEvent: {}
+[33.010609] (-) TimerEvent: {}
+[33.111563] (-) TimerEvent: {}
+[33.212509] (-) TimerEvent: {}
+[33.313474] (-) TimerEvent: {}
+[33.414429] (-) TimerEvent: {}
+[33.417298] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdai::Pipeline createPipeline(bool, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.418338] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::RGB\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.418719] (rae_camera) StderrLine: {'line': b'   29 |      camRgb->setBoardSocket(dai::CameraBoardSocket::\x1b[01;35m\x1b[KRGB\x1b[m\x1b[K);\n'}
+[33.419074] (rae_camera) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[33.419394] (rae_camera) StderrLine: {'line': b'\n'}
+[33.419754] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.420082] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.420413] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.420732] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.421056] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.421377] (rae_camera) StderrLine: {'line': b'   23 |     \x1b[01;36m\x1b[KRGB\x1b[m\x1b[K [[deprecated]] = CAM_A,\n'}
+[33.421700] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[33.422025] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::RGB\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.422353] (rae_camera) StderrLine: {'line': b'   29 |      camRgb->setBoardSocket(dai::CameraBoardSocket::\x1b[01;35m\x1b[KRGB\x1b[m\x1b[K);\n'}
+[33.422683] (rae_camera) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[33.423010] (rae_camera) StderrLine: {'line': b'\n'}
+[33.423322] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.423641] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.423958] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.424286] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.424619] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.424960] (rae_camera) StderrLine: {'line': b'   23 |     \x1b[01;36m\x1b[KRGB\x1b[m\x1b[K [[deprecated]] = CAM_A,\n'}
+[33.425287] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[33.431332] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::LEFT\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.432078] (rae_camera) StderrLine: {'line': b'   58 |  leftFront->setBoardSocket(dai::CameraBoardSocket::\x1b[01;35m\x1b[KLEFT\x1b[m\x1b[K);\n'}
+[33.432632] (rae_camera) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.433344] (rae_camera) StderrLine: {'line': b'\n'}
+[33.433866] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.434200] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.434532] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.434875] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.435199] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.435517] (rae_camera) StderrLine: {'line': b'   25 |     \x1b[01;36m\x1b[KLEFT\x1b[m\x1b[K [[deprecated]] = CAM_B,\n'}
+[33.435836] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.436167] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::LEFT\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.436516] (rae_camera) StderrLine: {'line': b'   58 |  leftFront->setBoardSocket(dai::CameraBoardSocket::\x1b[01;35m\x1b[KLEFT\x1b[m\x1b[K);\n'}
+[33.436838] (rae_camera) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.437155] (rae_camera) StderrLine: {'line': b'\n'}
+[33.437472] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.437795] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.438119] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.438457] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.438796] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.439114] (rae_camera) StderrLine: {'line': b'   25 |     \x1b[01;36m\x1b[KLEFT\x1b[m\x1b[K [[deprecated]] = CAM_B,\n'}
+[33.439432] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[33.439747] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::RIGHT\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.440071] (rae_camera) StderrLine: {'line': b'   60 | ightFront->setBoardSocket(dai::CameraBoardSocket::\x1b[01;35m\x1b[KRIGHT\x1b[m\x1b[K);\n'}
+[33.440413] (rae_camera) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.440730] (rae_camera) StderrLine: {'line': b'\n'}
+[33.441046] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.441374] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.441696] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.442022] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.442353] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.442687] (rae_camera) StderrLine: {'line': b'   26 |     \x1b[01;36m\x1b[KRIGHT\x1b[m\x1b[K [[deprecated]] = CAM_C,\n'}
+[33.443003] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.443323] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::RIGHT\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.443643] (rae_camera) StderrLine: {'line': b'   60 | ightFront->setBoardSocket(dai::CameraBoardSocket::\x1b[01;35m\x1b[KRIGHT\x1b[m\x1b[K);\n'}
+[33.443958] (rae_camera) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.444280] (rae_camera) StderrLine: {'line': b'\n'}
+[33.444601] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.444918] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.445239] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.445560] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.445879] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.446205] (rae_camera) StderrLine: {'line': b'   26 |     \x1b[01;36m\x1b[KRIGHT\x1b[m\x1b[K [[deprecated]] = CAM_C,\n'}
+[33.446527] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.514681] (-) TimerEvent: {}
+[33.526757] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[33.527803] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::RIGHT\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.528168] (rae_camera) StderrLine: {'line': b'  198 | o(calibrationHandler, dai::CameraBoardSocket::\x1b[01;35m\x1b[KRIGHT\x1b[m\x1b[K, width, height);;\n'}
+[33.528522] (rae_camera) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.528854] (rae_camera) StderrLine: {'line': b'\n'}
+[33.529179] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.529509] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.529837] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.530175] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.530507] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.530832] (rae_camera) StderrLine: {'line': b'   26 |     \x1b[01;36m\x1b[KRIGHT\x1b[m\x1b[K [[deprecated]] = CAM_C,\n'}
+[33.531151] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.531471] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdai::CameraBoardSocket::RIGHT\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[33.531795] (rae_camera) StderrLine: {'line': b'  198 | o(calibrationHandler, dai::CameraBoardSocket::\x1b[01;35m\x1b[KRIGHT\x1b[m\x1b[K, width, height);;\n'}
+[33.532124] (rae_camera) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.532459] (rae_camera) StderrLine: {'line': b'\n'}
+[33.532779] (rae_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5\x1b[m\x1b[K,\n'}
+[33.533099] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/DeviceBase.hpp:18\x1b[m\x1b[K,\n'}
+[33.533419] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/depthai/device/Device.hpp:14\x1b[m\x1b[K,\n'}
+[33.533744] (rae_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13\x1b[m\x1b[K:\n'}
+[33.534083] (rae_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[33.534400] (rae_camera) StderrLine: {'line': b'   26 |     \x1b[01;36m\x1b[KRIGHT\x1b[m\x1b[K [[deprecated]] = CAM_C,\n'}
+[33.534723] (rae_camera) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[33.614925] (-) TimerEvent: {}
+[33.716325] (-) TimerEvent: {}
+[33.817685] (-) TimerEvent: {}
+[33.919052] (-) TimerEvent: {}
+[34.020251] (-) TimerEvent: {}
+[34.121648] (-) TimerEvent: {}
+[34.223027] (-) TimerEvent: {}
+[34.324423] (-) TimerEvent: {}
+[34.425707] (-) TimerEvent: {}
+[34.526981] (-) TimerEvent: {}
+[34.628084] (-) TimerEvent: {}
+[34.729093] (-) TimerEvent: {}
+[34.830076] (-) TimerEvent: {}
+[34.931048] (-) TimerEvent: {}
+[35.032022] (-) TimerEvent: {}
+[35.133062] (-) TimerEvent: {}
+[35.234053] (-) TimerEvent: {}
+[35.335029] (-) TimerEvent: {}
+[35.435995] (-) TimerEvent: {}
+[35.536993] (-) TimerEvent: {}
+[35.637970] (-) TimerEvent: {}
+[35.738932] (-) TimerEvent: {}
+[35.839936] (-) TimerEvent: {}
+[35.940943] (-) TimerEvent: {}
+[36.041926] (-) TimerEvent: {}
+[36.142943] (-) TimerEvent: {}
+[36.243949] (-) TimerEvent: {}
+[36.344942] (-) TimerEvent: {}
+[36.445918] (-) TimerEvent: {}
+[36.547124] (-) TimerEvent: {}
+[36.648407] (-) TimerEvent: {}
+[36.749658] (-) TimerEvent: {}
+[36.850906] (-) TimerEvent: {}
+[36.952103] (-) TimerEvent: {}
+[37.053200] (-) TimerEvent: {}
+[37.154210] (-) TimerEvent: {}
+[37.255202] (-) TimerEvent: {}
+[37.356217] (-) TimerEvent: {}
+[37.457253] (-) TimerEvent: {}
+[37.558336] (-) TimerEvent: {}
+[37.659305] (-) TimerEvent: {}
+[37.760227] (-) TimerEvent: {}
+[37.861244] (-) TimerEvent: {}
+[37.962642] (-) TimerEvent: {}
+[38.064034] (-) TimerEvent: {}
+[38.165379] (-) TimerEvent: {}
+[38.266639] (-) TimerEvent: {}
+[38.367930] (-) TimerEvent: {}
+[38.469232] (-) TimerEvent: {}
+[38.570601] (-) TimerEvent: {}
+[38.671907] (-) TimerEvent: {}
+[38.773241] (-) TimerEvent: {}
+[38.874605] (-) TimerEvent: {}
+[38.975937] (-) TimerEvent: {}
+[39.077308] (-) TimerEvent: {}
+[39.178670] (-) TimerEvent: {}
+[39.280073] (-) TimerEvent: {}
+[39.381535] (-) TimerEvent: {}
+[39.482939] (-) TimerEvent: {}
+[39.584265] (-) TimerEvent: {}
+[39.685575] (-) TimerEvent: {}
+[39.787575] (-) TimerEvent: {}
+[39.888660] (-) TimerEvent: {}
+[39.992482] (-) TimerEvent: {}
+[40.093889] (-) TimerEvent: {}
+[40.195603] (-) TimerEvent: {}
+[40.296999] (-) TimerEvent: {}
+[40.398378] (-) TimerEvent: {}
+[40.499686] (-) TimerEvent: {}
+[40.601049] (-) TimerEvent: {}
+[40.702443] (-) TimerEvent: {}
+[40.803823] (-) TimerEvent: {}
+[40.905068] (-) TimerEvent: {}
+[41.005954] (-) TimerEvent: {}
+[41.106974] (-) TimerEvent: {}
+[41.207937] (-) TimerEvent: {}
+[41.309251] (-) TimerEvent: {}
+[41.410571] (-) TimerEvent: {}
+[41.511650] (-) TimerEvent: {}
+[41.612678] (-) TimerEvent: {}
+[41.714043] (-) TimerEvent: {}
+[41.815453] (-) TimerEvent: {}
+[41.916893] (-) TimerEvent: {}
+[42.018311] (-) TimerEvent: {}
+[42.119623] (-) TimerEvent: {}
+[42.220999] (-) TimerEvent: {}
+[42.322331] (-) TimerEvent: {}
+[42.423635] (-) TimerEvent: {}
+[42.524634] (-) TimerEvent: {}
+[42.625917] (-) TimerEvent: {}
+[42.727113] (-) TimerEvent: {}
+[42.828458] (-) TimerEvent: {}
+[42.929820] (-) TimerEvent: {}
+[43.031238] (-) TimerEvent: {}
+[43.132636] (-) TimerEvent: {}
+[43.233989] (-) TimerEvent: {}
+[43.335359] (-) TimerEvent: {}
+[43.436784] (-) TimerEvent: {}
+[43.538085] (-) TimerEvent: {}
+[43.639096] (-) TimerEvent: {}
+[43.740116] (-) TimerEvent: {}
+[43.841134] (-) TimerEvent: {}
+[43.942130] (-) TimerEvent: {}
+[44.043088] (-) TimerEvent: {}
+[44.144166] (-) TimerEvent: {}
+[44.245224] (-) TimerEvent: {}
+[44.346151] (-) TimerEvent: {}
+[44.446974] (-) TimerEvent: {}
+[44.547985] (-) TimerEvent: {}
+[44.648973] (-) TimerEvent: {}
+[44.749965] (-) TimerEvent: {}
+[44.850947] (-) TimerEvent: {}
+[44.951925] (-) TimerEvent: {}
+[45.053305] (-) TimerEvent: {}
+[45.154542] (-) TimerEvent: {}
+[45.255916] (-) TimerEvent: {}
+[45.357245] (-) TimerEvent: {}
+[45.458485] (-) TimerEvent: {}
+[45.559486] (-) TimerEvent: {}
+[45.660354] (-) TimerEvent: {}
+[45.761731] (-) TimerEvent: {}
+[45.863044] (-) TimerEvent: {}
+[45.964119] (-) TimerEvent: {}
+[46.065526] (-) TimerEvent: {}
+[46.166894] (-) TimerEvent: {}
+[46.268295] (-) TimerEvent: {}
+[46.369628] (-) TimerEvent: {}
+[46.470766] (-) TimerEvent: {}
+[46.572119] (-) TimerEvent: {}
+[46.673500] (-) TimerEvent: {}
+[46.774858] (-) TimerEvent: {}
+[46.876145] (-) TimerEvent: {}
+[46.977433] (-) TimerEvent: {}
+[47.078513] (-) TimerEvent: {}
+[47.179509] (-) TimerEvent: {}
+[47.280493] (-) TimerEvent: {}
+[47.382011] (-) TimerEvent: {}
+[47.483339] (-) TimerEvent: {}
+[47.584610] (-) TimerEvent: {}
+[47.685902] (-) TimerEvent: {}
+[47.787229] (-) TimerEvent: {}
+[47.888473] (-) TimerEvent: {}
+[47.989763] (-) TimerEvent: {}
+[48.091037] (-) TimerEvent: {}
+[48.192375] (-) TimerEvent: {}
+[48.293773] (-) TimerEvent: {}
+[48.395175] (-) TimerEvent: {}
+[48.496824] (-) TimerEvent: {}
+[48.598129] (-) TimerEvent: {}
+[48.699405] (-) TimerEvent: {}
+[48.800700] (-) TimerEvent: {}
+[48.902016] (-) TimerEvent: {}
+[49.003339] (-) TimerEvent: {}
+[49.104682] (-) TimerEvent: {}
+[49.206037] (-) TimerEvent: {}
+[49.307273] (-) TimerEvent: {}
+[49.408396] (-) TimerEvent: {}
+[49.511567] (-) TimerEvent: {}
+[49.612770] (-) TimerEvent: {}
+[49.713632] (-) TimerEvent: {}
+[49.814707] (-) TimerEvent: {}
+[49.916076] (-) TimerEvent: {}
+[50.017349] (-) TimerEvent: {}
+[50.118611] (-) TimerEvent: {}
+[50.219586] (-) TimerEvent: {}
+[50.320575] (-) TimerEvent: {}
+[50.421587] (-) TimerEvent: {}
+[50.522607] (-) TimerEvent: {}
+[50.623592] (-) TimerEvent: {}
+[50.724579] (-) TimerEvent: {}
+[50.825864] (-) TimerEvent: {}
+[50.927140] (-) TimerEvent: {}
+[51.028424] (-) TimerEvent: {}
+[51.129672] (-) TimerEvent: {}
+[51.230985] (-) TimerEvent: {}
+[51.332001] (-) TimerEvent: {}
+[51.432954] (-) TimerEvent: {}
+[51.533834] (-) TimerEvent: {}
+[51.634774] (-) TimerEvent: {}
+[51.735649] (-) TimerEvent: {}
+[51.836455] (-) TimerEvent: {}
+[51.937356] (-) TimerEvent: {}
+[52.038305] (-) TimerEvent: {}
+[52.139585] (-) TimerEvent: {}
+[52.240765] (-) TimerEvent: {}
+[52.341982] (-) TimerEvent: {}
+[52.443236] (-) TimerEvent: {}
+[52.544577] (-) TimerEvent: {}
+[52.645706] (-) TimerEvent: {}
+[52.747037] (-) TimerEvent: {}
+[52.848429] (-) TimerEvent: {}
+[52.949811] (-) TimerEvent: {}
+[53.051202] (-) TimerEvent: {}
+[53.152574] (-) TimerEvent: {}
+[53.253955] (-) TimerEvent: {}
+[53.357751] (-) TimerEvent: {}
+[53.459140] (-) TimerEvent: {}
+[53.560535] (-) TimerEvent: {}
+[53.661949] (-) TimerEvent: {}
+[53.763302] (-) TimerEvent: {}
+[53.864651] (-) TimerEvent: {}
+[53.965988] (-) TimerEvent: {}
+[54.067429] (-) TimerEvent: {}
+[54.168797] (-) TimerEvent: {}
+[54.270153] (-) TimerEvent: {}
+[54.371511] (-) TimerEvent: {}
+[54.472803] (-) TimerEvent: {}
+[54.573876] (-) TimerEvent: {}
+[54.674813] (-) TimerEvent: {}
+[54.775931] (-) TimerEvent: {}
+[54.877058] (-) TimerEvent: {}
+[54.978162] (-) TimerEvent: {}
+[55.079452] (-) TimerEvent: {}
+[55.180546] (-) TimerEvent: {}
+[55.281543] (-) TimerEvent: {}
+[55.382513] (-) TimerEvent: {}
+[55.484226] (-) TimerEvent: {}
+[55.585598] (-) TimerEvent: {}
+[55.686971] (-) TimerEvent: {}
+[55.788343] (-) TimerEvent: {}
+[55.889787] (-) TimerEvent: {}
+[55.991158] (-) TimerEvent: {}
+[56.092487] (-) TimerEvent: {}
+[56.193850] (-) TimerEvent: {}
+[56.295200] (-) TimerEvent: {}
+[56.396466] (-) TimerEvent: {}
+[56.497731] (-) TimerEvent: {}
+[56.598978] (-) TimerEvent: {}
+[56.700233] (-) TimerEvent: {}
+[56.801496] (-) TimerEvent: {}
+[56.902979] (-) TimerEvent: {}
+[57.004266] (-) TimerEvent: {}
+[57.105665] (-) TimerEvent: {}
+[57.207052] (-) TimerEvent: {}
+[57.308419] (-) TimerEvent: {}
+[57.409798] (-) TimerEvent: {}
+[57.511111] (-) TimerEvent: {}
+[57.612227] (-) TimerEvent: {}
+[57.713202] (-) TimerEvent: {}
+[57.814162] (-) TimerEvent: {}
+[57.915119] (-) TimerEvent: {}
+[58.016449] (-) TimerEvent: {}
+[58.117838] (-) TimerEvent: {}
+[58.219195] (-) TimerEvent: {}
+[58.320455] (-) TimerEvent: {}
+[58.421872] (-) TimerEvent: {}
+[58.523279] (-) TimerEvent: {}
+[58.624618] (-) TimerEvent: {}
+[58.725947] (-) TimerEvent: {}
+[58.827149] (-) TimerEvent: {}
+[58.928536] (-) TimerEvent: {}
+[59.029849] (-) TimerEvent: {}
+[59.131039] (-) TimerEvent: {}
+[59.232409] (-) TimerEvent: {}
+[59.333772] (-) TimerEvent: {}
+[59.435172] (-) TimerEvent: {}
+[59.536551] (-) TimerEvent: {}
+[59.637603] (-) TimerEvent: {}
+[59.738572] (-) TimerEvent: {}
+[59.839548] (-) TimerEvent: {}
+[59.940522] (-) TimerEvent: {}
+[60.041467] (-) TimerEvent: {}
+[60.142433] (-) TimerEvent: {}
+[60.243387] (-) TimerEvent: {}
+[60.344381] (-) TimerEvent: {}
+[60.445753] (-) TimerEvent: {}
+[60.547173] (-) TimerEvent: {}
+[60.648504] (-) TimerEvent: {}
+[60.749802] (-) TimerEvent: {}
+[60.850800] (-) TimerEvent: {}
+[60.951797] (-) TimerEvent: {}
+[61.052711] (-) TimerEvent: {}
+[61.153689] (-) TimerEvent: {}
+[61.254664] (-) TimerEvent: {}
+[61.356069] (-) TimerEvent: {}
+[61.457417] (-) TimerEvent: {}
+[61.558781] (-) TimerEvent: {}
+[61.660172] (-) TimerEvent: {}
+[61.761511] (-) TimerEvent: {}
+[61.862876] (-) TimerEvent: {}
+[61.964265] (-) TimerEvent: {}
+[62.065638] (-) TimerEvent: {}
+[62.167003] (-) TimerEvent: {}
+[62.268359] (-) TimerEvent: {}
+[62.369725] (-) TimerEvent: {}
+[62.471925] (-) TimerEvent: {}
+[62.573218] (-) TimerEvent: {}
+[62.674538] (-) TimerEvent: {}
+[62.775893] (-) TimerEvent: {}
+[62.877185] (-) TimerEvent: {}
+[62.978524] (-) TimerEvent: {}
+[63.079923] (-) TimerEvent: {}
+[63.181291] (-) TimerEvent: {}
+[63.282691] (-) TimerEvent: {}
+[63.383921] (-) TimerEvent: {}
+[63.485204] (-) TimerEvent: {}
+[63.586538] (-) TimerEvent: {}
+[63.687869] (-) TimerEvent: {}
+[63.789270] (-) TimerEvent: {}
+[63.890664] (-) TimerEvent: {}
+[63.992043] (-) TimerEvent: {}
+[64.093325] (-) TimerEvent: {}
+[64.194579] (-) TimerEvent: {}
+[64.295823] (-) TimerEvent: {}
+[64.397157] (-) TimerEvent: {}
+[64.498505] (-) TimerEvent: {}
+[64.599529] (-) TimerEvent: {}
+[64.700435] (-) TimerEvent: {}
+[64.801312] (-) TimerEvent: {}
+[64.902247] (-) TimerEvent: {}
+[65.003564] (-) TimerEvent: {}
+[65.104636] (-) TimerEvent: {}
+[65.205692] (-) TimerEvent: {}
+[65.306702] (-) TimerEvent: {}
+[65.407635] (-) TimerEvent: {}
+[65.508454] (-) TimerEvent: {}
+[65.609162] (-) TimerEvent: {}
+[65.709866] (-) TimerEvent: {}
+[65.810562] (-) TimerEvent: {}
+[65.911293] (-) TimerEvent: {}
+[66.012192] (-) TimerEvent: {}
+[66.113058] (-) TimerEvent: {}
+[66.213860] (-) TimerEvent: {}
+[66.315102] (-) TimerEvent: {}
+[66.416353] (-) TimerEvent: {}
+[66.517500] (-) TimerEvent: {}
+[66.618678] (-) TimerEvent: {}
+[66.719821] (-) TimerEvent: {}
+[66.820886] (-) TimerEvent: {}
+[66.921857] (-) TimerEvent: {}
+[67.022934] (-) TimerEvent: {}
+[67.124246] (-) TimerEvent: {}
+[67.225299] (-) TimerEvent: {}
+[67.326153] (-) TimerEvent: {}
+[67.427443] (-) TimerEvent: {}
+[67.528528] (-) TimerEvent: {}
+[67.629471] (-) TimerEvent: {}
+[67.730543] (-) TimerEvent: {}
+[67.831624] (-) TimerEvent: {}
+[67.932561] (-) TimerEvent: {}
+[68.033478] (-) TimerEvent: {}
+[68.134566] (-) TimerEvent: {}
+[68.235482] (-) TimerEvent: {}
+[68.336486] (-) TimerEvent: {}
+[68.437567] (-) TimerEvent: {}
+[68.538720] (-) TimerEvent: {}
+[68.639519] (-) TimerEvent: {}
+[68.740308] (-) TimerEvent: {}
+[68.841149] (-) TimerEvent: {}
+[68.942119] (-) TimerEvent: {}
+[69.043038] (-) TimerEvent: {}
+[69.144009] (-) TimerEvent: {}
+[69.245373] (-) TimerEvent: {}
+[69.346538] (-) TimerEvent: {}
+[69.447522] (-) TimerEvent: {}
+[69.548757] (-) TimerEvent: {}
+[69.650081] (-) TimerEvent: {}
+[69.751407] (-) TimerEvent: {}
+[69.852754] (-) TimerEvent: {}
+[69.953999] (-) TimerEvent: {}
+[70.055132] (-) TimerEvent: {}
+[70.156070] (-) TimerEvent: {}
+[70.256960] (-) TimerEvent: {}
+[70.357959] (-) TimerEvent: {}
+[70.458963] (-) TimerEvent: {}
+[70.555169] (rae_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera\x1b[0m\n'}
+[70.559034] (-) TimerEvent: {}
+[70.660192] (-) TimerEvent: {}
+[70.761633] (-) TimerEvent: {}
+[70.863077] (-) TimerEvent: {}
+[70.964410] (-) TimerEvent: {}
+[71.065650] (-) TimerEvent: {}
+[71.166934] (-) TimerEvent: {}
+[71.268212] (-) TimerEvent: {}
+[71.369578] (-) TimerEvent: {}
+[71.470968] (-) TimerEvent: {}
+[71.572341] (-) TimerEvent: {}
+[71.673620] (-) TimerEvent: {}
+[71.775021] (-) TimerEvent: {}
+[71.876380] (-) TimerEvent: {}
+[71.977683] (-) TimerEvent: {}
+[72.078967] (-) TimerEvent: {}
+[72.180147] (-) TimerEvent: {}
+[72.281328] (-) TimerEvent: {}
+[72.382587] (-) TimerEvent: {}
+[72.483995] (-) TimerEvent: {}
+[72.585406] (-) TimerEvent: {}
+[72.686709] (-) TimerEvent: {}
+[72.788107] (-) TimerEvent: {}
+[72.889423] (-) TimerEvent: {}
+[72.990734] (-) TimerEvent: {}
+[73.092006] (-) TimerEvent: {}
+[73.193228] (-) TimerEvent: {}
+[73.225117] (rae_camera) StdoutLine: {'line': b'[100%] Built target camera\n'}
+[73.293457] (-) TimerEvent: {}
+[73.329585] (rae_camera) CommandEnded: {'returncode': 0}
+[73.393603] (-) TimerEvent: {}
+[73.494487] (-) TimerEvent: {}
+[73.595396] (-) TimerEvent: {}
+[73.696340] (-) TimerEvent: {}
+[73.797149] (-) TimerEvent: {}
+[73.897945] (-) TimerEvent: {}
+[73.998586] (-) TimerEvent: {}
+[74.099317] (-) TimerEvent: {}
+[74.200245] (-) TimerEvent: {}
+[74.224066] (rae_camera) JobProgress: {'identifier': 'rae_camera', 'progress': 'install'}
+[74.300511] (-) TimerEvent: {}
+[74.328853] (rae_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/rae_camera'], 'cwd': '/ws/build/rae_camera', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/ws/install/rae_msgs/local/lib/python3.10/dist-packages:/ws/install/rae_bringup/local/lib/python3.10/dist-packages:/underlay_ws/build/gst_pipeline:/underlay_ws/install/gst_pipeline/lib/python3.10/site-packages:/underlay_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/underlay_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/underlay_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ws/build/rae_camera'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_pipeline:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LANG', 'C.UTF-8'), ('DISPLAY', ':0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/ws/install:/underlay_ws/install'), ('UNDERLAY_WS', '/underlay_ws'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/ws/install'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/ws/install/rae_hw/lib:/ws/install/rae_msgs/lib:/underlay_ws/install/nav_layer_from_points/lib:/underlay_ws/install/laserscan_kinect/lib:/underlay_ws/install/ira_laser_tools/lib:/underlay_ws/install/gst_bridge/lib:/underlay_ws/install/depthai_ros_driver/lib:/underlay_ws/install/depthai_filters/lib:/underlay_ws/install/depthai_bridge/lib:/underlay_ws/install/depthai_ros_msgs/lib:/underlay_ws/install/depth_sensor_pose/lib:/underlay_ws/install/cliff_detector/lib:/underlay_ws/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', 'MH-pc'), ('WS', '/ws')]), 'shell': False}
+[74.400685] (-) TimerEvent: {}
+[74.432000] (rae_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[74.438154] (rae_camera) StdoutLine: {'line': b'-- Installing: /ws/install/rae_camera/lib/rae_camera/camera\n'}
+[74.455803] (rae_camera) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/rae_camera/lib/rae_camera/camera" to "/underlay_ws/install/depthai_bridge/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/underlay_ws/install/depthai_ros_msgs/lib:/usr/local/lib"\n'}
+[74.456672] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/rae_camera/stereo_depth\n'}
+[74.457800] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/rae_camera/stereo_pair\n'}
+[74.458889] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/rae_camera/yolo\n'}
+[74.460008] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/rae_camera/perception_ipc_rtabmap\n'}
+[74.460881] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/launch\n'}
+[74.461688] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/launch/rae_camera.launch.py\n'}
+[74.462223] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/launch/perception_ipc.launch.py\n'}
+[74.462785] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/config\n'}
+[74.463358] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/config/laserscan_kinect.yaml\n'}
+[74.463886] (rae_camera) StdoutLine: {'line': b'-- Installing: /ws/install/rae_camera/share/rae_camera/config/camera.yaml\n'}
+[74.464415] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/config/ipc.yaml\n'}
+[74.464920] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/config/cal.json\n'}
+[74.465365] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/config/yolo.json\n'}
+[74.465882] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/ament_index/resource_index/package_run_dependencies/rae_camera\n'}
+[74.466388] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/ament_index/resource_index/parent_prefix_path/rae_camera\n'}
+[74.466830] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.sh\n'}
+[74.467296] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.dsv\n'}
+[74.467862] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/environment/path.sh\n'}
+[74.468191] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/environment/path.dsv\n'}
+[74.468556] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/local_setup.bash\n'}
+[74.468884] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/local_setup.sh\n'}
+[74.469210] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/local_setup.zsh\n'}
+[74.469536] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/local_setup.dsv\n'}
+[74.470039] (rae_camera) StdoutLine: {'line': b'-- Installing: /ws/install/rae_camera/share/rae_camera/package.dsv\n'}
+[74.470663] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/ament_index/resource_index/packages/rae_camera\n'}
+[74.471251] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[74.471931] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[74.472556] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig.cmake\n'}
+[74.473087] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig-version.cmake\n'}
+[74.473608] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/rae_camera/package.xml\n'}
+[74.473944] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xany.hpp\n'}
+[74.474362] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xbasic_fixed_string.hpp\n'}
+[74.474826] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xbase64.hpp\n'}
+[74.475159] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xclosure.hpp\n'}
+[74.475483] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xcomplex.hpp\n'}
+[74.475815] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xcomplex_sequence.hpp\n'}
+[74.476165] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xspan.hpp\n'}
+[74.476526] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xspan_impl.hpp\n'}
+[74.476862] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xdynamic_bitset.hpp\n'}
+[74.477195] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xfunctional.hpp\n'}
+[74.477528] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhalf_float.hpp\n'}
+[74.478598] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhalf_float_impl.hpp\n'}
+[74.479806] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhash.hpp\n'}
+[74.481400] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhierarchy_generator.hpp\n'}
+[74.481852] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xiterator_base.hpp\n'}
+[74.482202] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xjson.hpp\n'}
+[74.482576] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmasked_value_meta.hpp\n'}
+[74.482908] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmasked_value.hpp\n'}
+[74.483234] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmeta_utils.hpp\n'}
+[74.483569] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmultimethods.hpp\n'}
+[74.483897] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional_meta.hpp\n'}
+[74.484249] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional.hpp\n'}
+[74.484582] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional_sequence.hpp\n'}
+[74.484910] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xplatform.hpp\n'}
+[74.485238] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xproxy_wrapper.hpp\n'}
+[74.485568] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xsequence.hpp\n'}
+[74.485904] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xsystem.hpp\n'}
+[74.486243] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xtl_config.hpp\n'}
+[74.486583] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xtype_traits.hpp\n'}
+[74.486914] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xvariant.hpp\n'}
+[74.487237] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xvariant_impl.hpp\n'}
+[74.487558] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xvisitor.hpp\n'}
+[74.487881] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/cmake/xtl/xtlConfig.cmake\n'}
+[74.488220] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/cmake/xtl/xtlConfigVersion.cmake\n'}
+[74.488567] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/cmake/xtl/xtlTargets.cmake\n'}
+[74.488898] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/pkgconfig/xtl.pc\n'}
+[74.489229] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xaccessible.hpp\n'}
+[74.489567] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xaccumulator.hpp\n'}
+[74.489904] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xadapt.hpp\n'}
+[74.490238] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xarray.hpp\n'}
+[74.490573] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xassign.hpp\n'}
+[74.490897] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xaxis_iterator.hpp\n'}
+[74.491230] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xaxis_slice_iterator.hpp\n'}
+[74.491562] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xblockwise_reducer.hpp\n'}
+[74.491900] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xblockwise_reducer_functors.hpp\n'}
+[74.492237] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xbroadcast.hpp\n'}
+[74.492579] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xbuffer_adaptor.hpp\n'}
+[74.528636] (-) TimerEvent: {}
+[74.529302] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xbuilder.hpp\n'}
+[74.529690] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xchunked_array.hpp\n'}
+[74.530029] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xchunked_assign.hpp\n'}
+[74.530363] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xchunked_view.hpp\n'}
+[74.530693] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xcomplex.hpp\n'}
+[74.531023] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xcontainer.hpp\n'}
+[74.531350] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xcsv.hpp\n'}
+[74.531680] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xdynamic_view.hpp\n'}
+[74.532016] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xeval.hpp\n'}
+[74.532360] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xexception.hpp\n'}
+[74.532700] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xexpression.hpp\n'}
+[74.533042] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xexpression_holder.hpp\n'}
+[74.533388] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xexpression_traits.hpp\n'}
+[74.533723] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xfixed.hpp\n'}
+[74.534052] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xfunction.hpp\n'}
+[74.534380] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xfunctor_view.hpp\n'}
+[74.534707] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xgenerator.hpp\n'}
+[74.535037] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xhistogram.hpp\n'}
+[74.535362] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xindex_view.hpp\n'}
+[74.535685] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xinfo.hpp\n'}
+[74.536011] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xio.hpp\n'}
+[74.536375] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xiterable.hpp\n'}
+[74.536710] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xiterator.hpp\n'}
+[74.537055] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xjson.hpp\n'}
+[74.537408] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xlayout.hpp\n'}
+[74.537733] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xmanipulation.hpp\n'}
+[74.538060] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xmasked_view.hpp\n'}
+[74.538385] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xmath.hpp\n'}
+[74.538709] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xmime.hpp\n'}
+[74.539034] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xmultiindex_iterator.hpp\n'}
+[74.539362] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xnoalias.hpp\n'}
+[74.539690] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xnorm.hpp\n'}
+[74.540025] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xnpy.hpp\n'}
+[74.540396] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xoffset_view.hpp\n'}
+[74.540735] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xoperation.hpp\n'}
+[74.541082] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xoptional.hpp\n'}
+[74.541418] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xoptional_assembly.hpp\n'}
+[74.541743] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xoptional_assembly_base.hpp\n'}
+[74.542063] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xoptional_assembly_storage.hpp\n'}
+[74.542390] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xpad.hpp\n'}
+[74.542717] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xrandom.hpp\n'}
+[74.543047] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xreducer.hpp\n'}
+[74.543374] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xrepeat.hpp\n'}
+[74.543702] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xscalar.hpp\n'}
+[74.544032] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xsemantic.hpp\n'}
+[74.544377] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xset_operation.hpp\n'}
+[74.544714] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xshape.hpp\n'}
+[74.545064] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xslice.hpp\n'}
+[74.545388] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xsort.hpp\n'}
+[74.545719] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xstorage.hpp\n'}
+[74.546047] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xstrided_view.hpp\n'}
+[74.546377] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xstrided_view_base.hpp\n'}
+[74.546707] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xstrides.hpp\n'}
+[74.547040] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xtensor.hpp\n'}
+[74.547366] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xtensor_config.hpp\n'}
+[74.547695] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xtensor_forward.hpp\n'}
+[74.548024] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xtensor_simd.hpp\n'}
+[74.548377] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xutils.hpp\n'}
+[74.548718] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xvectorize.hpp\n'}
+[74.549059] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xview.hpp\n'}
+[74.549384] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor/xview_utils.hpp\n'}
+[74.549709] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfig.cmake\n'}
+[74.550038] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfigVersion.cmake\n'}
+[74.550367] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/cmake/xtensor/xtensorTargets.cmake\n'}
+[74.550696] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/pkgconfig/xtensor.pc\n'}
+[74.551030] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtensor.hpp\n'}
+[74.551358] (rae_camera) CommandEnded: {'returncode': 0}
+[74.628831] (-) TimerEvent: {}
+[74.730073] (-) TimerEvent: {}
+[74.831000] (-) TimerEvent: {}
+[74.934427] (-) TimerEvent: {}
+[75.035777] (-) TimerEvent: {}
+[75.136909] (-) TimerEvent: {}
+[75.237995] (-) TimerEvent: {}
+[75.339070] (-) TimerEvent: {}
+[75.440146] (-) TimerEvent: {}
+[75.540879] (-) TimerEvent: {}
+[75.641979] (-) TimerEvent: {}
+[75.742944] (-) TimerEvent: {}
+[75.836156] (rae_camera) JobEnded: {'identifier': 'rae_camera', 'rc': 0}
+[75.853357] (-) TimerEvent: {}
+[75.853771] (-) EventReactorShutdown: {}

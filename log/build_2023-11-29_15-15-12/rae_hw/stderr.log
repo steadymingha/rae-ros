@@ -1,0 +1,8 @@
+/ws/src/rae-ros/rae_hw/test/test_speed.cpp: In function ‘int main(int, char**)’:
+/ws/src/rae-ros/rae_hw/test/test_speed.cpp:77:15: warning: unused variable ‘startTimeDiff’ [-Wunused-variable]
+   77 |         float startTimeDiff = std::chrono::duration<float>(currTime - startTime).count();
+      |               ^~~~~~~~~~~~~
+/ws/src/rae-ros/rae_hw/src/speakers_node.cpp: In member function ‘void rae_hw::SpeakersNode::play_audio_service_callback(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<rae_msgs::srv::PlayAudio_Request_<std::allocator<void> > >, std::shared_ptr<rae_msgs::srv::PlayAudio_Response_<std::allocator<void> > >)’:
+/ws/src/rae-ros/rae_hw/src/speakers_node.cpp:28:45: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+   28 |     const std::shared_ptr<rmw_request_id_t> request_header,
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~

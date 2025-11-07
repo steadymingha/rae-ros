@@ -1,0 +1,6 @@
+Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_msgs
+Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_msgs
+Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_msgs -- -j4 -l4
+Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_msgs -- -j4 -l4
+Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_msgs
+Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_msgs

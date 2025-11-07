@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/test_max_speed.dir/test/test_max_speed.cpp.o CMakeFiles/test_max_speed.dir/src/rae_motors.cpp.o -o test_max_speed  /usr/lib/aarch64-linux-gnu/libgpiodcxx.so 

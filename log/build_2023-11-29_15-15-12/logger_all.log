@@ -1,0 +1,432 @@
+[6.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=RelWithDebInfo']
+[6.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x5504f6c1f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x5504ecf610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x5504ecf610>>)
+[6.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.362s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ws'
+[6.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.446s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.447s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.448s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.449s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.450s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.452s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.453s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.454s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extensions ['ignore', 'ignore_ament_install']
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'ignore'
+[6.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'ignore_ament_install'
+[6.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extensions ['colcon_pkg']
+[6.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'colcon_pkg'
+[6.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extensions ['colcon_meta']
+[6.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'colcon_meta'
+[6.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extensions ['ros']
+[6.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'ros'
+[6.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extensions ['cmake', 'python']
+[6.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'cmake'
+[6.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'python'
+[6.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extensions ['python_setup_py']
+[6.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros) by extension 'python_setup_py'
+[6.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extensions ['ignore', 'ignore_ament_install']
+[6.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extension 'ignore'
+[6.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extension 'ignore_ament_install'
+[6.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extensions ['colcon_pkg']
+[6.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extension 'colcon_pkg'
+[6.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extensions ['colcon_meta']
+[6.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extension 'colcon_meta'
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extensions ['ros']
+[6.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_bringup) by extension 'ros'
+[6.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rae-ros/rae_bringup' with type 'ros.ament_cmake' and name 'rae_bringup'
+[6.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extensions ['ignore', 'ignore_ament_install']
+[6.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extension 'ignore'
+[6.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extension 'ignore_ament_install'
+[6.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extensions ['colcon_pkg']
+[6.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extension 'colcon_pkg'
+[6.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extensions ['colcon_meta']
+[6.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extension 'colcon_meta'
+[6.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extensions ['ros']
+[6.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_camera) by extension 'ros'
+[6.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rae-ros/rae_camera' with type 'ros.ament_cmake' and name 'rae_camera'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extensions ['ignore', 'ignore_ament_install']
+[6.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extension 'ignore'
+[6.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extension 'ignore_ament_install'
+[6.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extensions ['colcon_pkg']
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extension 'colcon_pkg'
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extensions ['colcon_meta']
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extension 'colcon_meta'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extensions ['ros']
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_description) by extension 'ros'
+[6.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rae-ros/rae_description' with type 'ros.ament_cmake' and name 'rae_description'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extensions ['ignore', 'ignore_ament_install']
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extension 'ignore'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extension 'ignore_ament_install'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extensions ['colcon_pkg']
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extension 'colcon_pkg'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extensions ['colcon_meta']
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extension 'colcon_meta'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extensions ['ros']
+[6.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_hw) by extension 'ros'
+[6.537s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rae-ros/rae_hw' with type 'ros.ament_cmake' and name 'rae_hw'
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extension 'ignore'
+[6.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extension 'ignore_ament_install'
+[6.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extensions ['colcon_pkg']
+[6.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extension 'colcon_pkg'
+[6.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extensions ['colcon_meta']
+[6.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extension 'colcon_meta'
+[6.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extensions ['ros']
+[6.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/rae-ros/rae_msgs) by extension 'ros'
+[6.544s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rae-ros/rae_msgs' with type 'ros.ament_cmake' and name 'rae_msgs'
+[6.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.030s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[7.030s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'cmake_target' from command line to 'None'
+[7.031s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.031s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[7.031s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[7.032s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[7.032s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[7.032s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[7.032s] Level 5:colcon.colcon_core.verb:set package 'rae_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.033s] DEBUG:colcon.colcon_core.verb:Building package 'rae_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/rae_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/rae_bringup', 'merge_install': False, 'path': '/ws/src/rae-ros/rae_bringup', 'symlink_install': True, 'test_result_base': None}
+[7.122s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[7.122s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'cmake_target' from command line to 'None'
+[7.122s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.122s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[7.123s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'cmake_clean_first' from command line to 'False'
+[7.123s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'cmake_force_configure' from command line to 'False'
+[7.123s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'ament_cmake_args' from command line to 'None'
+[7.123s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[7.123s] Level 5:colcon.colcon_core.verb:set package 'rae_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.124s] DEBUG:colcon.colcon_core.verb:Building package 'rae_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/rae_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/rae_camera', 'merge_install': False, 'path': '/ws/src/rae-ros/rae_camera', 'symlink_install': True, 'test_result_base': None}
+[7.213s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[7.213s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'cmake_target' from command line to 'None'
+[7.214s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.214s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'cmake_clean_cache' from command line to 'False'
+[7.214s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'cmake_clean_first' from command line to 'False'
+[7.214s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'cmake_force_configure' from command line to 'False'
+[7.214s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'ament_cmake_args' from command line to 'None'
+[7.215s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'catkin_cmake_args' from command line to 'None'
+[7.215s] Level 5:colcon.colcon_core.verb:set package 'rae_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.215s] DEBUG:colcon.colcon_core.verb:Building package 'rae_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/rae_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/rae_description', 'merge_install': False, 'path': '/ws/src/rae-ros/rae_description', 'symlink_install': True, 'test_result_base': None}
+[7.304s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[7.304s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'cmake_target' from command line to 'None'
+[7.305s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.305s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[7.305s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[7.305s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[7.305s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[7.306s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[7.306s] Level 5:colcon.colcon_core.verb:set package 'rae_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.306s] DEBUG:colcon.colcon_core.verb:Building package 'rae_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/rae_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/rae_msgs', 'merge_install': False, 'path': '/ws/src/rae-ros/rae_msgs', 'symlink_install': True, 'test_result_base': None}
+[7.396s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[7.396s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'cmake_target' from command line to 'None'
+[7.396s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.396s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'cmake_clean_cache' from command line to 'False'
+[7.397s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'cmake_clean_first' from command line to 'False'
+[7.397s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'cmake_force_configure' from command line to 'False'
+[7.397s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'ament_cmake_args' from command line to 'None'
+[7.397s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'catkin_cmake_args' from command line to 'None'
+[7.397s] Level 5:colcon.colcon_core.verb:set package 'rae_hw' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.398s] DEBUG:colcon.colcon_core.verb:Building package 'rae_hw' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ws/build/rae_hw', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ws/install/rae_hw', 'merge_install': False, 'path': '/ws/src/rae-ros/rae_hw', 'symlink_install': True, 'test_result_base': None}
+[7.484s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.589s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ws/src/rae-ros/rae_msgs' with build type 'ament_cmake'
+[7.590s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ws/src/rae-ros/rae_msgs'
+[7.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.996s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ws/src/rae-ros/rae_bringup' with build type 'ament_cmake'
+[7.997s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ws/src/rae-ros/rae_bringup'
+[8.093s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ws/src/rae-ros/rae_camera' with build type 'ament_cmake'
+[8.388s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ws/src/rae-ros/rae_camera'
+[8.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.772s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ws/src/rae-ros/rae_description' with build type 'ament_cmake'
+[8.773s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ws/src/rae-ros/rae_description'
+[8.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_msgs
+[9.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_bringup -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_bringup
+[9.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_camera -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_camera
+[9.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_description
+[24.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_description
+[24.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_description -- -j4 -l4
+[25.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_bringup -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_bringup
+[25.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_bringup -- -j4 -l4
+[25.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_description -- -j4 -l4
+[26.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_description
+[31.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_description)
+[31.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_description
+[31.508s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description' for CMake module files
+[31.515s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description' for CMake config files
+[31.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_description', 'cmake_prefix_path')
+[31.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_description/share/rae_description/hook/cmake_prefix_path.ps1'
+[31.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_description/share/rae_description/hook/cmake_prefix_path.dsv'
+[31.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_description/share/rae_description/hook/cmake_prefix_path.sh'
+[31.654s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/bin'
+[31.654s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/lib/pkgconfig/rae_description.pc'
+[31.662s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/lib/python3.10/site-packages'
+[31.664s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/bin'
+[31.798s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.ps1'
+[31.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_description/share/rae_description/package.dsv'
+[31.807s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.sh'
+[31.812s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.bash'
+[31.816s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.zsh'
+[31.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_description/share/colcon-core/packages/rae_description)
+[31.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_bringup -- -j4 -l4
+[32.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_description)
+[32.911s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description' for CMake module files
+[32.918s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description' for CMake config files
+[32.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_description', 'cmake_prefix_path')
+[33.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_description/share/rae_description/hook/cmake_prefix_path.ps1'
+[33.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_description/share/rae_description/hook/cmake_prefix_path.dsv'
+[33.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_description/share/rae_description/hook/cmake_prefix_path.sh'
+[33.064s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/bin'
+[33.064s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/lib/pkgconfig/rae_description.pc'
+[33.066s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/lib/python3.10/site-packages'
+[33.067s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_description/bin'
+[33.160s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.ps1'
+[33.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_description/share/rae_description/package.dsv'
+[33.169s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.sh'
+[33.171s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.bash'
+[33.173s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_description/share/rae_description/package.zsh'
+[33.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_description/share/colcon-core/packages/rae_description)
+[33.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_bringup
+[39.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_bringup)
+[39.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_bringup
+[39.380s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup' for CMake module files
+[39.390s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup' for CMake config files
+[39.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_bringup', 'cmake_prefix_path')
+[39.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_bringup/share/rae_bringup/hook/cmake_prefix_path.ps1'
+[39.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_bringup/share/rae_bringup/hook/cmake_prefix_path.dsv'
+[39.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_bringup/share/rae_bringup/hook/cmake_prefix_path.sh'
+[39.604s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/lib'
+[39.607s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/bin'
+[39.607s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/lib/pkgconfig/rae_bringup.pc'
+[39.610s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/lib/python3.10/site-packages'
+[39.613s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/bin'
+[39.740s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.ps1'
+[39.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_bringup/share/rae_bringup/package.dsv'
+[39.746s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.sh'
+[39.748s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.bash'
+[39.750s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.zsh'
+[39.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_bringup/share/colcon-core/packages/rae_bringup)
+[40.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_bringup)
+[40.710s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup' for CMake module files
+[40.719s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup' for CMake config files
+[40.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_bringup', 'cmake_prefix_path')
+[40.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_bringup/share/rae_bringup/hook/cmake_prefix_path.ps1'
+[40.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_bringup/share/rae_bringup/hook/cmake_prefix_path.dsv'
+[40.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_bringup/share/rae_bringup/hook/cmake_prefix_path.sh'
+[40.920s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/lib'
+[40.921s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/bin'
+[40.922s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/lib/pkgconfig/rae_bringup.pc'
+[40.925s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/lib/python3.10/site-packages'
+[40.927s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_bringup/bin'
+[41.115s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.ps1'
+[41.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_bringup/share/rae_bringup/package.dsv'
+[41.127s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.sh'
+[41.131s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.bash'
+[41.135s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_bringup/share/rae_bringup/package.zsh'
+[41.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_bringup/share/colcon-core/packages/rae_bringup)
+[43.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_msgs
+[43.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_msgs -- -j4 -l4
+[109.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_msgs -- -j4 -l4
+[112.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_msgs
+[119.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_camera -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_camera
+[119.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_camera -- -j4 -l4
+[121.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_msgs)
+[121.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_msgs
+[122.213s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs' for CMake module files
+[122.224s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs' for CMake config files
+[122.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_msgs', 'cmake_prefix_path')
+[122.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/cmake_prefix_path.ps1'
+[122.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_msgs/share/rae_msgs/hook/cmake_prefix_path.dsv'
+[122.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/cmake_prefix_path.sh'
+[122.432s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/lib'
+[122.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_msgs', 'ld_library_path_lib')
+[122.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/ld_library_path_lib.ps1'
+[122.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_msgs/share/rae_msgs/hook/ld_library_path_lib.dsv'
+[122.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/ld_library_path_lib.sh'
+[122.691s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/bin'
+[122.692s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/lib/pkgconfig/rae_msgs.pc'
+[122.707s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/lib/python3.10/site-packages'
+[122.710s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/bin'
+[122.927s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.ps1'
+[122.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_msgs/share/rae_msgs/package.dsv'
+[122.938s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.sh'
+[122.942s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.bash'
+[122.945s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.zsh'
+[122.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_msgs/share/colcon-core/packages/rae_msgs)
+[128.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_msgs)
+[128.533s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs' for CMake module files
+[128.543s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs' for CMake config files
+[128.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_msgs', 'cmake_prefix_path')
+[128.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/cmake_prefix_path.ps1'
+[128.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_msgs/share/rae_msgs/hook/cmake_prefix_path.dsv'
+[128.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/cmake_prefix_path.sh'
+[128.730s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/lib'
+[128.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_msgs', 'ld_library_path_lib')
+[128.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/ld_library_path_lib.ps1'
+[128.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_msgs/share/rae_msgs/hook/ld_library_path_lib.dsv'
+[128.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_msgs/share/rae_msgs/hook/ld_library_path_lib.sh'
+[128.907s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/bin'
+[128.908s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/lib/pkgconfig/rae_msgs.pc'
+[128.910s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/lib/python3.10/site-packages'
+[128.913s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_msgs/bin'
+[129.204s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.ps1'
+[129.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_msgs/share/rae_msgs/package.dsv'
+[129.216s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.sh'
+[129.220s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.bash'
+[129.224s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_msgs/share/rae_msgs/package.zsh'
+[129.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_msgs/share/colcon-core/packages/rae_msgs)
+[129.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/ws/src/rae-ros/rae_hw' with build type 'ament_cmake'
+[129.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/ws/src/rae-ros/rae_hw'
+[129.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[129.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[130.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_hw': AMENT_PREFIX_PATH=/ws/install/rae_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/rae_msgs:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/rae_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/install/rae_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ws/src/rae-ros/rae_hw -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_hw
+[225.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_hw' returned '0': AMENT_PREFIX_PATH=/ws/install/rae_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/rae_msgs:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/rae_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/install/rae_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ws/src/rae-ros/rae_hw -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_hw
+[225.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_hw': AMENT_PREFIX_PATH=/ws/install/rae_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/rae_msgs:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/rae_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/install/rae_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ws/build/rae_hw -- -j4 -l4
+[618.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_camera -- -j4 -l4
+[620.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_camera
+[631.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_camera)
+[631.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_camera
+[631.359s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera' for CMake module files
+[631.363s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera' for CMake config files
+[631.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_camera', 'cmake_prefix_path')
+[631.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_camera/share/rae_camera/hook/cmake_prefix_path.ps1'
+[631.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_camera/share/rae_camera/hook/cmake_prefix_path.dsv'
+[631.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_camera/share/rae_camera/hook/cmake_prefix_path.sh'
+[631.468s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/lib'
+[631.468s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/bin'
+[631.469s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/lib/pkgconfig/rae_camera.pc'
+[631.470s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/lib/python3.10/site-packages'
+[631.472s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/bin'
+[631.564s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.ps1'
+[631.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_camera/share/rae_camera/package.dsv'
+[631.570s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.sh'
+[631.573s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.bash'
+[631.575s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.zsh'
+[631.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_camera/share/colcon-core/packages/rae_camera)
+[632.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_camera)
+[632.894s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera' for CMake module files
+[632.898s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera' for CMake config files
+[632.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_camera', 'cmake_prefix_path')
+[632.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_camera/share/rae_camera/hook/cmake_prefix_path.ps1'
+[633.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_camera/share/rae_camera/hook/cmake_prefix_path.dsv'
+[633.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_camera/share/rae_camera/hook/cmake_prefix_path.sh'
+[633.005s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/lib'
+[633.006s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/bin'
+[633.006s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/lib/pkgconfig/rae_camera.pc'
+[633.008s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/lib/python3.10/site-packages'
+[633.009s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_camera/bin'
+[633.104s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.ps1'
+[633.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_camera/share/rae_camera/package.dsv'
+[633.112s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.sh'
+[633.114s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.bash'
+[633.117s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_camera/share/rae_camera/package.zsh'
+[633.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_camera/share/colcon-core/packages/rae_camera)
+[801.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_hw' returned '0': AMENT_PREFIX_PATH=/ws/install/rae_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/rae_msgs:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/rae_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/install/rae_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ws/build/rae_hw -- -j4 -l4
+[803.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ws/build/rae_hw': AMENT_PREFIX_PATH=/ws/install/rae_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/rae_msgs:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/rae_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/install/rae_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ws/build/rae_hw
+[807.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_hw)
+[807.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ws/build/rae_hw' returned '0': AMENT_PREFIX_PATH=/ws/install/rae_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/install/rae_msgs:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/ws/install/rae_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/install/rae_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ws/build/rae_hw
+[808.075s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw' for CMake module files
+[808.079s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw' for CMake config files
+[808.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_hw', 'cmake_prefix_path')
+[808.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/cmake_prefix_path.ps1'
+[808.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_hw/share/rae_hw/hook/cmake_prefix_path.dsv'
+[808.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/cmake_prefix_path.sh'
+[808.179s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/lib'
+[808.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_hw', 'ld_library_path_lib')
+[808.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/ld_library_path_lib.ps1'
+[808.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_hw/share/rae_hw/hook/ld_library_path_lib.dsv'
+[808.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/ld_library_path_lib.sh'
+[808.275s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/bin'
+[808.276s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/lib/pkgconfig/rae_hw.pc'
+[808.277s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/lib/python3.10/site-packages'
+[808.279s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/bin'
+[808.370s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.ps1'
+[808.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_hw/share/rae_hw/package.dsv'
+[808.376s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.sh'
+[808.378s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.bash'
+[808.380s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.zsh'
+[808.381s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_hw/share/colcon-core/packages/rae_hw)
+[810.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rae_hw)
+[810.259s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw' for CMake module files
+[810.263s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw' for CMake config files
+[810.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_hw', 'cmake_prefix_path')
+[810.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/cmake_prefix_path.ps1'
+[810.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_hw/share/rae_hw/hook/cmake_prefix_path.dsv'
+[810.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/cmake_prefix_path.sh'
+[810.362s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/lib'
+[810.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('rae_hw', 'ld_library_path_lib')
+[810.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/ld_library_path_lib.ps1'
+[810.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ws/install/rae_hw/share/rae_hw/hook/ld_library_path_lib.dsv'
+[810.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/ws/install/rae_hw/share/rae_hw/hook/ld_library_path_lib.sh'
+[810.458s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/bin'
+[810.458s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/lib/pkgconfig/rae_hw.pc'
+[810.460s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/lib/python3.10/site-packages'
+[810.461s] Level 1:colcon.colcon_core.environment:checking '/ws/install/rae_hw/bin'
+[810.550s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.ps1'
+[810.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ws/install/rae_hw/share/rae_hw/package.dsv'
+[810.557s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.sh'
+[810.560s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.bash'
+[810.562s] INFO:colcon.colcon_core.shell:Creating package script '/ws/install/rae_hw/share/rae_hw/package.zsh'
+[810.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ws/install/rae_hw/share/colcon-core/packages/rae_hw)
+[810.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[810.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[810.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[810.568s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[810.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[810.693s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[810.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[810.694s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[810.697s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[810.698s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[810.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.ps1'
+[810.794s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ws/install/_local_setup_util_ps1.py'
+[810.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.ps1'
+[810.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.sh'
+[810.908s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ws/install/_local_setup_util_sh.py'
+[810.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.sh'
+[811.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.bash'
+[811.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.bash'
+[811.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/ws/install/local_setup.zsh'
+[811.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ws/install/setup.zsh'

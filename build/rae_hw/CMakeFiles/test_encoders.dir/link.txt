@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/test_encoders.dir/test/test_encoders.cpp.o CMakeFiles/test_encoders.dir/src/rae_motors.cpp.o -o test_encoders  /usr/lib/aarch64-linux-gnu/libgpiodcxx.so 

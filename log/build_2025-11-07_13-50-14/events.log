@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.012403] (-) JobUnselected: {'identifier': 'rae_bringup'}
+[0.012776] (-) JobUnselected: {'identifier': 'rae_description'}
+[0.012946] (-) JobUnselected: {'identifier': 'rae_hw'}
+[0.013123] (-) JobUnselected: {'identifier': 'rae_msgs'}
+[0.013477] (rae_camera) JobQueued: {'identifier': 'rae_camera', 'dependencies': OrderedDict()}
+[0.013674] (rae_camera) JobStarted: {'identifier': 'rae_camera'}
+[0.098408] (-) TimerEvent: {}
+[0.199114] (-) TimerEvent: {}
+[0.299874] (-) TimerEvent: {}
+[0.400617] (-) TimerEvent: {}
+[0.411327] (rae_camera) JobProgress: {'identifier': 'rae_camera', 'progress': 'cmake'}
+[0.416806] (rae_camera) JobProgress: {'identifier': 'rae_camera', 'progress': 'build'}
+[0.421316] (rae_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/build/rae_camera', '--', '-j12', '-l12'], 'cwd': '/ws/build/rae_camera', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/ws/install/rae_msgs/local/lib/python3.10/dist-packages:/ws/install/rae_bringup/local/lib/python3.10/dist-packages:/underlay_ws/build/gst_pipeline:/underlay_ws/install/gst_pipeline/lib/python3.10/site-packages:/underlay_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/underlay_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/underlay_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ws/build/rae_camera'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_pipeline:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LANG', 'C.UTF-8'), ('DISPLAY', ':0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/ws/install:/underlay_ws/install'), ('UNDERLAY_WS', '/underlay_ws'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/ws/install/rae_hw/lib:/ws/install/rae_msgs/lib:/underlay_ws/install/nav_layer_from_points/lib:/underlay_ws/install/laserscan_kinect/lib:/underlay_ws/install/ira_laser_tools/lib:/underlay_ws/install/gst_bridge/lib:/underlay_ws/install/depthai_ros_driver/lib:/underlay_ws/install/depthai_filters/lib:/underlay_ws/install/depthai_bridge/lib:/underlay_ws/install/depthai_ros_msgs/lib:/underlay_ws/install/depth_sensor_pose/lib:/underlay_ws/install/cliff_detector/lib:/underlay_ws/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', 'MH-pc'), ('WS', '/ws')]), 'shell': False}
+[0.500915] (-) TimerEvent: {}
+[0.601995] (-) TimerEvent: {}
+[0.702968] (-) TimerEvent: {}
+[0.803935] (-) TimerEvent: {}
+[0.904945] (-) TimerEvent: {}
+[1.006005] (-) TimerEvent: {}
+[1.107550] (-) TimerEvent: {}
+[1.187192] (rae_camera) StdoutLine: {'line': b'[ 40%] Built target yolo\n'}
+[1.188292] (rae_camera) StdoutLine: {'line': b'[ 40%] Built target camera\n'}
+[1.207789] (-) TimerEvent: {}
+[1.260701] (rae_camera) StdoutLine: {'line': b'[ 60%] Built target stereo_depth\n'}
+[1.308054] (-) TimerEvent: {}
+[1.409468] (-) TimerEvent: {}
+[1.510853] (-) TimerEvent: {}
+[1.567912] (rae_camera) StdoutLine: {'line': b'[ 80%] Built target stereo_pair\n'}
+[1.610971] (-) TimerEvent: {}
+[1.627594] (rae_camera) StdoutLine: {'line': b'[100%] Built target perception_ipc_rtabmap\n'}
+[1.711242] (-) TimerEvent: {}
+[1.729889] (rae_camera) CommandEnded: {'returncode': 0}
+[1.811471] (-) TimerEvent: {}
+[1.912663] (-) TimerEvent: {}
+[2.013837] (-) TimerEvent: {}
+[2.114952] (-) TimerEvent: {}
+[2.216066] (-) TimerEvent: {}
+[2.317166] (-) TimerEvent: {}
+[2.417867] (-) TimerEvent: {}
+[2.518987] (-) TimerEvent: {}
+[2.557475] (rae_camera) JobProgress: {'identifier': 'rae_camera', 'progress': 'install'}
+[2.619197] (-) TimerEvent: {}
+[2.640542] (rae_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/build/rae_camera'], 'cwd': '/ws/build/rae_camera', 'env': OrderedDict([('CMAKE_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/underlay_ws/install/gst_pipeline:/opt/ros/humble'), ('COLCON', '1'), ('PYTHONPATH', '/ws/install/rae_msgs/local/lib/python3.10/dist-packages:/ws/install/rae_bringup/local/lib/python3.10/dist-packages:/underlay_ws/build/gst_pipeline:/underlay_ws/install/gst_pipeline/lib/python3.10/site-packages:/underlay_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/underlay_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/underlay_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ws/build/rae_camera'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/ws/install/rae_hw:/ws/install/rae_msgs:/ws/install/rae_description:/ws/install/rae_camera:/ws/install/rae_bringup:/underlay_ws/install/nav_layer_from_points:/underlay_ws/install/laserscan_kinect:/underlay_ws/install/ira_laser_tools:/underlay_ws/install/gst_pipeline:/underlay_ws/install/gst_bridge:/underlay_ws/install/depthai-ros:/underlay_ws/install/depthai_ros_driver:/underlay_ws/install/depthai_filters:/underlay_ws/install/depthai_examples:/underlay_ws/install/depthai_bridge:/underlay_ws/install/depthai_ros_msgs:/underlay_ws/install/depthai_descriptions:/underlay_ws/install/depth_sensor_pose:/underlay_ws/install/cliff_detector:/underlay_ws/install/audio_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LANG', 'C.UTF-8'), ('DISPLAY', ':0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/ws/install:/underlay_ws/install'), ('UNDERLAY_WS', '/underlay_ws'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/ws/install/rae_hw/lib:/ws/install/rae_msgs/lib:/underlay_ws/install/nav_layer_from_points/lib:/underlay_ws/install/laserscan_kinect/lib:/underlay_ws/install/ira_laser_tools/lib:/underlay_ws/install/gst_bridge/lib:/underlay_ws/install/depthai_ros_driver/lib:/underlay_ws/install/depthai_filters/lib:/underlay_ws/install/depthai_bridge/lib:/underlay_ws/install/depthai_ros_msgs/lib:/underlay_ws/install/depth_sensor_pose/lib:/underlay_ws/install/cliff_detector/lib:/underlay_ws/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOSTNAME', 'MH-pc'), ('WS', '/ws')]), 'shell': False}
+[2.719473] (-) TimerEvent: {}
+[2.731541] (rae_camera) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[2.738008] (rae_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.744437] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/cmake/xtl/xtlConfig.cmake\n'}
+[2.745503] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/cmake/xtl/xtlConfigVersion.cmake\n'}
+[2.746539] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/pkgconfig//xtl.pc\n'}
+[2.748769] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaccessible.hpp\n'}
+[2.749372] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaccumulator.hpp\n'}
+[2.749936] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xadapt.hpp\n'}
+[2.750495] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xarray.hpp\n'}
+[2.751051] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xassign.hpp\n'}
+[2.751617] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaxis_iterator.hpp\n'}
+[2.752178] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaxis_slice_iterator.hpp\n'}
+[2.752740] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xblockwise_reducer.hpp\n'}
+[2.753299] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xblockwise_reducer_functors.hpp\n'}
+[2.753848] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xbroadcast.hpp\n'}
+[2.754399] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xbuffer_adaptor.hpp\n'}
+[2.755753] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xbuilder.hpp\n'}
+[2.756322] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xchunked_array.hpp\n'}
+[2.756889] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xchunked_assign.hpp\n'}
+[2.757439] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xchunked_view.hpp\n'}
+[2.758019] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xcomplex.hpp\n'}
+[2.758585] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xcontainer.hpp\n'}
+[2.759136] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xcsv.hpp\n'}
+[2.759680] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xdynamic_view.hpp\n'}
+[2.760241] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xeval.hpp\n'}
+[2.760876] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexception.hpp\n'}
+[2.761438] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexpression.hpp\n'}
+[2.762021] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexpression_holder.hpp\n'}
+[2.762570] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexpression_traits.hpp\n'}
+[2.763133] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xfixed.hpp\n'}
+[2.763683] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xfunction.hpp\n'}
+[2.764236] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xfunctor_view.hpp\n'}
+[2.764784] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xgenerator.hpp\n'}
+[2.765354] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xhistogram.hpp\n'}
+[2.765889] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xindex_view.hpp\n'}
+[2.766453] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xinfo.hpp\n'}
+[2.767002] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xio.hpp\n'}
+[2.767556] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xiterable.hpp\n'}
+[2.768109] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xiterator.hpp\n'}
+[2.768659] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xjson.hpp\n'}
+[2.769208] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xlayout.hpp\n'}
+[2.769768] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmanipulation.hpp\n'}
+[2.770313] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmasked_view.hpp\n'}
+[2.770856] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmath.hpp\n'}
+[2.771420] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmime.hpp\n'}
+[2.772901] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmultiindex_iterator.hpp\n'}
+[2.773386] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xnoalias.hpp\n'}
+[2.773825] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xnorm.hpp\n'}
+[2.774242] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xnpy.hpp\n'}
+[2.774649] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoffset_view.hpp\n'}
+[2.775075] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoperation.hpp\n'}
+[2.775495] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional.hpp\n'}
+[2.775923] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional_assembly.hpp\n'}
+[2.776413] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional_assembly_base.hpp\n'}
+[2.776837] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional_assembly_storage.hpp\n'}
+[2.777278] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xpad.hpp\n'}
+[2.777711] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xrandom.hpp\n'}
+[2.778188] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xreducer.hpp\n'}
+[2.778639] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xrepeat.hpp\n'}
+[2.779137] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xscalar.hpp\n'}
+[2.779618] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xsemantic.hpp\n'}
+[2.780066] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xset_operation.hpp\n'}
+[2.780530] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xshape.hpp\n'}
+[2.780976] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xslice.hpp\n'}
+[2.781512] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xsort.hpp\n'}
+[2.781975] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstorage.hpp\n'}
+[2.782433] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstrided_view.hpp\n'}
+[2.782893] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstrided_view_base.hpp\n'}
+[2.783323] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstrides.hpp\n'}
+[2.783735] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor.hpp\n'}
+[2.784167] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor_config.hpp\n'}
+[2.784622] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor_forward.hpp\n'}
+[2.785106] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor_simd.hpp\n'}
+[2.785683] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xutils.hpp\n'}
+[2.785977] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xvectorize.hpp\n'}
+[2.786259] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xview.hpp\n'}
+[2.786543] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xview_utils.hpp\n'}
+[2.787384] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfig.cmake\n'}
+[2.789026] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfigVersion.cmake\n'}
+[2.789498] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/pkgconfig//xtensor.pc\n'}
+[2.789834] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/include/xtensor.hpp\n'}
+[2.791217] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/camera\n'}
+[2.792733] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/stereo_depth\n'}
+[2.793772] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/stereo_pair\n'}
+[2.794915] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/yolo\n'}
+[2.796020] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/perception_ipc_rtabmap\n'}
+[2.802128] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/launch/perception_ipc.launch.py\n'}
+[2.802611] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/launch/rae_camera.launch.py\n'}
+[2.803989] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/cal.json\n'}
+[2.804477] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/camera.yaml\n'}
+[2.805804] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/ipc.yaml\n'}
+[2.806368] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/laserscan_kinect.yaml\n'}
+[2.806717] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/yolo.json\n'}
+[2.807132] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/ament_index/resource_index/package_run_dependencies/rae_camera\n'}
+[2.807586] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/ament_index/resource_index/parent_prefix_path/rae_camera\n'}
+[2.808291] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.sh\n'}
+[2.808934] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.dsv\n'}
+[2.809701] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/path.sh\n'}
+[2.810407] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/path.dsv\n'}
+[2.811090] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.bash\n'}
+[2.811631] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.sh\n'}
+[2.812392] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.zsh\n'}
+[2.813076] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.dsv\n'}
+[2.813679] (rae_camera) StdoutLine: {'line': b'-- Symlinking: /ws/install/rae_camera/share/rae_camera/package.dsv\n'}
+[2.819512] (-) TimerEvent: {}
+[2.894549] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/ament_index/resource_index/packages/rae_camera\n'}
+[2.896133] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.897386] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.898620] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig.cmake\n'}
+[2.899594] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig-version.cmake\n'}
+[2.900866] (rae_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/package.xml\n'}
+[2.904433] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xany.hpp\n'}
+[2.905327] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xbasic_fixed_string.hpp\n'}
+[2.905905] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xbase64.hpp\n'}
+[2.906424] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xclosure.hpp\n'}
+[2.906940] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xcomplex.hpp\n'}
+[2.907476] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xcomplex_sequence.hpp\n'}
+[2.908032] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xspan.hpp\n'}
+[2.908561] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xspan_impl.hpp\n'}
+[2.909078] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xdynamic_bitset.hpp\n'}
+[2.909589] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xfunctional.hpp\n'}
+[2.910095] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhalf_float.hpp\n'}
+[2.910636] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhalf_float_impl.hpp\n'}
+[2.911167] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhash.hpp\n'}
+[2.911676] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xhierarchy_generator.hpp\n'}
+[2.912177] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xiterator_base.hpp\n'}
+[2.912698] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xjson.hpp\n'}
+[2.913189] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmasked_value_meta.hpp\n'}
+[2.913686] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmasked_value.hpp\n'}
+[2.914181] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmeta_utils.hpp\n'}
+[2.914675] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xmultimethods.hpp\n'}
+[2.915171] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional_meta.hpp\n'}
+[2.915676] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional.hpp\n'}
+[2.916169] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional_sequence.hpp\n'}
+[2.917247] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xplatform.hpp\n'}
+[2.917602] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xproxy_wrapper.hpp\n'}
+[2.917946] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xsequence.hpp\n'}
+[2.918260] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xsystem.hpp\n'}
+[2.918577] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xtl_config.hpp\n'}
+[2.921903] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xtype_traits.hpp\n'}
+[2.922254] (-) TimerEvent: {}
+[2.922721] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xvariant.hpp\n'}
+[2.923073] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xvariant_impl.hpp\n'}
+[2.923405] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/include/xtl/xvisitor.hpp\n'}
+[2.923734] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/share/cmake/xtl/xtlTargets.cmake\n'}
+[2.925442] (rae_camera) StdoutLine: {'line': b'-- Up-to-date: /ws/install/rae_camera/lib/cmake/xtensor/xtensorTargets.cmake\n'}
+[2.944479] (rae_camera) CommandEnded: {'returncode': 0}
+[3.022765] (-) TimerEvent: {}
+[3.124328] (-) TimerEvent: {}
+[3.225176] (-) TimerEvent: {}
+[3.326342] (-) TimerEvent: {}
+[3.427698] (-) TimerEvent: {}
+[3.528595] (-) TimerEvent: {}
+[3.629408] (-) TimerEvent: {}
+[3.730111] (-) TimerEvent: {}
+[3.830964] (-) TimerEvent: {}
+[3.932142] (-) TimerEvent: {}
+[4.033512] (-) TimerEvent: {}
+[4.136027] (-) TimerEvent: {}
+[4.236981] (-) TimerEvent: {}
+[4.284994] (rae_camera) JobEnded: {'identifier': 'rae_camera', 'rc': 0}
+[4.287792] (-) EventReactorShutdown: {}

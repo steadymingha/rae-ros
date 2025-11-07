@@ -1,0 +1,6 @@
+setup.py
+rae_msgs/__init__.py
+rae_msgs.egg-info/PKG-INFO
+rae_msgs.egg-info/SOURCES.txt
+rae_msgs.egg-info/dependency_links.txt
+rae_msgs.egg-info/top_level.txt

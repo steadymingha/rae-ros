@@ -1,0 +1,77 @@
+[1.211s] Invoking command in '/ws/build/rae_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_bringup -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_bringup
+[2.972s] -- The C compiler identification is GNU 11.4.0
+[4.510s] -- The CXX compiler identification is GNU 11.4.0
+[4.669s] -- Detecting C compiler ABI info
+[6.718s] -- Detecting C compiler ABI info - done
+[6.874s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.877s] -- Detecting C compile features
+[6.884s] -- Detecting C compile features - done
+[6.926s] -- Detecting CXX compiler ABI info
+[8.985s] -- Detecting CXX compiler ABI info - done
+[9.134s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.138s] -- Detecting CXX compile features
+[9.144s] -- Detecting CXX compile features - done
+[9.202s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[13.643s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.867s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.320s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[15.351s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.472s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.485s] -- Added test 'lint_cmake' to check CMake code style
+[17.496s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.513s] -- Added test 'xmllint' to check XML markup files
+[17.537s] -- Configuring done
+[17.603s] -- Generating done
+[17.619s] -- Build files have been written to: /ws/build/rae_bringup
+[17.666s] Invoked command in '/ws/build/rae_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_bringup -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_bringup
+[17.679s] Invoking command in '/ws/build/rae_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_bringup -- -j4 -l4
+[19.199s] Built target ament_cmake_python_symlink_rae_bringup
+[23.027s] running egg_info
+[23.036s] creating rae_bringup.egg-info
+[23.039s] writing rae_bringup.egg-info/PKG-INFO
+[23.042s] writing dependency_links to rae_bringup.egg-info/dependency_links.txt
+[23.045s] writing top-level names to rae_bringup.egg-info/top_level.txt
+[23.048s] writing manifest file 'rae_bringup.egg-info/SOURCES.txt'
+[23.072s] reading manifest file 'rae_bringup.egg-info/SOURCES.txt'
+[23.079s] writing manifest file 'rae_bringup.egg-info/SOURCES.txt'
+[23.838s] Built target ament_cmake_python_build_rae_bringup_egg
+[23.853s] Invoked command in '/ws/build/rae_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_bringup -- -j4 -l4
+[25.188s] Invoking command in '/ws/build/rae_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_bringup
+[25.376s] -- Install configuration: "RelWithDebInfo"
+[25.384s] -- Execute custom install script
+[25.392s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/environment/pythonpath.sh
+[25.519s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/environment/pythonpath.dsv
+[25.693s] -- Symlinking: /ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup-0.0.0-py3.10.egg-info/PKG-INFO
+[25.859s] -- Symlinking: /ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup-0.0.0-py3.10.egg-info/SOURCES.txt
+[26.019s] -- Symlinking: /ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup-0.0.0-py3.10.egg-info/dependency_links.txt
+[26.169s] -- Symlinking: /ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup-0.0.0-py3.10.egg-info/top_level.txt
+[26.270s] -- Symlinking: /ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup/__init__.py
+[26.369s] -- Symlinking: /ws/install/rae_bringup/lib/rae_bringup/scan_repub.py
+[26.470s] -- Symlinking: /ws/install/rae_bringup/lib/rae_bringup/battery_status.py
+[26.569s] -- Symlinking: /ws/install/rae_bringup/lib/rae_bringup/audio_spectrum.py
+[26.669s] -- Symlinking: /ws/install/rae_bringup/lib/rae_bringup/sound_test.py
+[26.807s] -- Symlinking: /ws/install/rae_bringup/lib/rae_bringup/led_test.py
+[26.974s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/launch/bringup.launch.py
+[27.109s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/launch/robot.launch.py
+[27.264s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/launch/rtabmap.launch.py
+[27.423s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/launch/slam.launch.py
+[27.587s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/config/sim.yaml
+[27.754s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/config/slam_param.yaml
+[27.922s] -- Symlinking: /ws/install/rae_bringup/share/ament_index/resource_index/package_run_dependencies/rae_bringup
+[28.086s] -- Symlinking: /ws/install/rae_bringup/share/ament_index/resource_index/parent_prefix_path/rae_bringup
+[28.251s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/environment/ament_prefix_path.sh
+[28.426s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/environment/ament_prefix_path.dsv
+[28.597s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/environment/path.sh
+[28.759s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/environment/path.dsv
+[28.875s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/local_setup.bash
+[29.030s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/local_setup.sh
+[29.191s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/local_setup.zsh
+[29.351s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/local_setup.dsv
+[29.516s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/package.dsv
+[29.678s] -- Symlinking: /ws/install/rae_bringup/share/ament_index/resource_index/packages/rae_bringup
+[29.841s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/cmake/rae_bringupConfig.cmake
+[30.005s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/cmake/rae_bringupConfig-version.cmake
+[30.169s] -- Symlinking: /ws/install/rae_bringup/share/rae_bringup/package.xml
+[31.125s] Listing '/ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup'...
+[31.126s] Compiling '/ws/install/rae_bringup/local/lib/python3.10/dist-packages/rae_bringup/__init__.py'...
+[31.196s] Invoked command in '/ws/build/rae_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_bringup

@@ -1,0 +1,7 @@
+{
+  "package_name": "rae_msgs",
+  "non_idl_tuples": [
+    "/ws/src/rae-ros/rae_msgs:msg/LEDControl.msg",
+    "/ws/src/rae-ros/rae_msgs:srv/PlayAudio.srv"
+  ]
+}

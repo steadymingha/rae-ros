@@ -1,0 +1,1 @@
+camera_info_manager:cv_bridge:depthai:depthai_bridge:depthai_ros_driver:image_proc:image_transport:imu_filter_madgwick:ira_laser_tools:laserscan_kinect:libopencv-dev:rclcpp:rclcpp_components:rtabmap_odom:rtabmap_slam:sensor_msgs:std_msgs:vision_msgs

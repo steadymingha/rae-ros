@@ -1,0 +1,133 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found ALSA: /usr/lib/aarch64-linux-gnu/libasound.so (found version "1.2.6.1") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'libmpg123'
+--   Found libmpg123, version 1.29.3
+-- Checking for module 'gstreamer-1.0'
+--   Found gstreamer-1.0, version 1.20.3
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /ws/src/rae-ros/rae_hw/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ws/build/rae_hw
+[  4%] Building CXX object CMakeFiles/rae_hw.dir/src/rae_hw.cpp.o
+[  8%] Building CXX object CMakeFiles/rae_hw.dir/src/rae_motors.cpp.o
+[ 13%] Building CXX object CMakeFiles/rae_hw.dir/src/peripherals/battery.cpp.o
+[ 17%] Building CXX object CMakeFiles/test_max_speed.dir/test/test_max_speed.cpp.o
+[ 21%] Building CXX object CMakeFiles/test_encoders.dir/test/test_encoders.cpp.o
+[ 26%] Building CXX object CMakeFiles/test_motors.dir/test/test_motors.cpp.o
+[ 30%] Building CXX object CMakeFiles/test_max_speed.dir/src/rae_motors.cpp.o
+[ 34%] Building CXX object CMakeFiles/test_encoders.dir/src/rae_motors.cpp.o
+[ 39%] Building CXX object CMakeFiles/test_motors.dir/src/rae_motors.cpp.o
+[ 43%] Building CXX object CMakeFiles/rae_hw.dir/src/peripherals/lcd.cpp.o
+[ 47%] Linking CXX executable test_encoders
+[ 52%] Linking CXX executable test_max_speed
+[ 52%] Built target test_encoders
+[ 52%] Built target test_max_speed
+[ 56%] Linking CXX executable test_motors
+[ 56%] Built target test_motors
+[ 60%] Building CXX object CMakeFiles/rae_hw.dir/src/peripherals/led.cpp.o
+[ 65%] Building CXX object CMakeFiles/rae_hw.dir/src/peripherals/mic.cpp.o
+[ 69%] Linking CXX shared library librae_hw.so
+[ 69%] Built target rae_hw
+[ 78%] Building CXX object CMakeFiles/test_speed.dir/test/test_speed.cpp.o
+[ 78%] Building CXX object CMakeFiles/test_speed.dir/src/rae_motors.cpp.o
+[ 82%] Building CXX object CMakeFiles/speakers_node.dir/src/speakers_node.cpp.o
+[ 86%] Building CXX object CMakeFiles/mic_node.dir/src/mic_node.cpp.o
+[ 91%] Linking CXX executable mic_node
+[ 91%] Built target mic_node
+[ 95%] Linking CXX executable speakers_node
+[ 95%] Built target speakers_node
+[100%] Linking CXX executable test_speed
+[100%] Built target test_speed
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /ws/install/rae_hw/share/rae_hw//rae_hw.xml
+-- Symlinking: /ws/install/rae_hw/lib/librae_hw.so
+-- Symlinking: /ws/install/rae_hw/lib/rae_hw/test_motors
+-- Symlinking: /ws/install/rae_hw/lib/rae_hw/test_encoders
+-- Symlinking: /ws/install/rae_hw/lib/rae_hw/test_max_speed
+-- Symlinking: /ws/install/rae_hw/lib/rae_hw/test_speed
+-- Symlinking: /ws/install/rae_hw/lib/rae_hw/mic_node
+-- Symlinking: /ws/install/rae_hw/lib/rae_hw/speakers_node
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/peripherals/battery.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/peripherals/lcd.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/peripherals/led.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/peripherals/mic.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/peripherals/speakers.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/peripherals/spidev.h
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/rae_hw.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/rae_motors.hpp
+-- Symlinking: /ws/install/rae_hw/include/rae_hw/visibility_control.h
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/launch/control.launch.py
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/launch/peripherals.launch.py
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/config/controller.yaml
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/config/ekf.yaml
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/environment/library_path.sh
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/environment/library_path.dsv
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/peripherals/battery.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/peripherals/lcd.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/peripherals/led.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/peripherals/mic.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/peripherals/speakers.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/peripherals/spidev.h
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/rae_hw.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/rae_motors.hpp
+-- Up-to-date symlink: /ws/install/rae_hw/include/rae_hw/visibility_control.h
+-- Symlinking: /ws/install/rae_hw/share/ament_index/resource_index/package_run_dependencies/rae_hw
+-- Symlinking: /ws/install/rae_hw/share/ament_index/resource_index/parent_prefix_path/rae_hw
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/environment/ament_prefix_path.sh
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/environment/ament_prefix_path.dsv
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/environment/path.sh
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/environment/path.dsv
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/local_setup.bash
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/local_setup.sh
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/local_setup.zsh
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/local_setup.dsv
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/package.dsv
+-- Symlinking: /ws/install/rae_hw/share/ament_index/resource_index/packages/rae_hw
+-- Symlinking: /ws/install/rae_hw/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rae_hw
+-- Symlinking: /ws/install/rae_hw/share/ament_index/resource_index/rclcpp_components/rae_hw
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/cmake/rae_hwConfig.cmake
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/cmake/rae_hwConfig-version.cmake
+-- Symlinking: /ws/install/rae_hw/share/rae_hw/package.xml

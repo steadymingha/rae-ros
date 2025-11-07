@@ -1,0 +1,1 @@
+rclcpp;cv_bridge;camera_info_manager;depthai_bridge;image_transport;sensor_msgs;std_msgs;vision_msgs;libopencv-dev;depthai;imu_filter_madgwick;rclcpp_components;depthai_ros_driver;rtabmap_slam;ira_laser_tools;laserscan_kinect;image_proc;rtabmap_odom;ament_lint_auto;ament_lint_common

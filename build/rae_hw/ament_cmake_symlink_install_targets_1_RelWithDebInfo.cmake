@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/build/rae_hw/test_motors" "/ws/build/rae_hw/test_encoders" "/ws/build/rae_hw/test_max_speed" "/ws/build/rae_hw/test_speed" "/ws/build/rae_hw/mic_node" "/ws/build/rae_hw/speakers_node" "TARGETS" "test_motors" "test_encoders" "test_max_speed" "test_speed" "mic_node" "speakers_node" "DESTINATION" "lib/rae_hw")

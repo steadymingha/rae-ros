@@ -1,0 +1,153 @@
+[0.297s] Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_camera -- -j12 -l12
+[0.832s] [ 30%] Built target yolo
+[0.833s] [ 50%] Built target stereo_pair
+[0.833s] [ 60%] Built target stereo_depth
+[0.837s] [ 80%] Built target camera
+[0.934s] [100%] Built target perception_ipc_rtabmap
+[1.011s] Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_camera -- -j12 -l12
+[1.788s] Invoking command in '/ws/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_camera
+[1.868s] -- Install configuration: "RelWithDebInfo"
+[1.872s] -- Execute custom install script
+[1.875s] -- Up-to-date symlink: /ws/install/rae_camera/share/cmake/xtl/xtlConfig.cmake
+[1.876s] -- Up-to-date symlink: /ws/install/rae_camera/share/cmake/xtl/xtlConfigVersion.cmake
+[1.877s] -- Up-to-date symlink: /ws/install/rae_camera/share/pkgconfig//xtl.pc
+[1.878s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaccessible.hpp
+[1.879s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaccumulator.hpp
+[1.879s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xadapt.hpp
+[1.880s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xarray.hpp
+[1.880s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xassign.hpp
+[1.881s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaxis_iterator.hpp
+[1.881s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xaxis_slice_iterator.hpp
+[1.882s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xblockwise_reducer.hpp
+[1.882s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xblockwise_reducer_functors.hpp
+[1.883s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xbroadcast.hpp
+[1.883s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xbuffer_adaptor.hpp
+[1.884s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xbuilder.hpp
+[1.884s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xchunked_array.hpp
+[1.885s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xchunked_assign.hpp
+[1.885s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xchunked_view.hpp
+[1.885s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xcomplex.hpp
+[1.885s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xcontainer.hpp
+[1.886s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xcsv.hpp
+[1.886s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xdynamic_view.hpp
+[1.886s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xeval.hpp
+[1.886s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexception.hpp
+[1.886s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexpression.hpp
+[1.887s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexpression_holder.hpp
+[1.887s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xexpression_traits.hpp
+[1.887s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xfixed.hpp
+[1.887s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xfunction.hpp
+[1.888s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xfunctor_view.hpp
+[1.888s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xgenerator.hpp
+[1.888s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xhistogram.hpp
+[1.888s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xindex_view.hpp
+[1.889s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xinfo.hpp
+[1.889s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xio.hpp
+[1.889s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xiterable.hpp
+[1.889s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xiterator.hpp
+[1.890s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xjson.hpp
+[1.890s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xlayout.hpp
+[1.890s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmanipulation.hpp
+[1.890s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmasked_view.hpp
+[1.891s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmath.hpp
+[1.891s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmime.hpp
+[1.891s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xmultiindex_iterator.hpp
+[1.891s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xnoalias.hpp
+[1.891s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xnorm.hpp
+[1.892s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xnpy.hpp
+[1.892s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoffset_view.hpp
+[1.892s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoperation.hpp
+[1.893s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional.hpp
+[1.893s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional_assembly.hpp
+[1.893s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional_assembly_base.hpp
+[1.893s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xoptional_assembly_storage.hpp
+[1.894s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xpad.hpp
+[1.894s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xrandom.hpp
+[1.894s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xreducer.hpp
+[1.894s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xrepeat.hpp
+[1.895s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xscalar.hpp
+[1.895s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xsemantic.hpp
+[1.895s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xset_operation.hpp
+[1.895s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xshape.hpp
+[1.896s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xslice.hpp
+[1.896s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xsort.hpp
+[1.896s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstorage.hpp
+[1.896s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstrided_view.hpp
+[1.897s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstrided_view_base.hpp
+[1.897s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xstrides.hpp
+[1.897s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor.hpp
+[1.897s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor_config.hpp
+[1.898s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor_forward.hpp
+[1.898s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xtensor_simd.hpp
+[1.898s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xutils.hpp
+[1.898s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xvectorize.hpp
+[1.899s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xview.hpp
+[1.899s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor/xview_utils.hpp
+[1.899s] -- Up-to-date symlink: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfig.cmake
+[1.899s] -- Up-to-date symlink: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfigVersion.cmake
+[1.900s] -- Up-to-date symlink: /ws/install/rae_camera/lib/pkgconfig//xtensor.pc
+[1.900s] -- Up-to-date symlink: /ws/install/rae_camera/include/xtensor.hpp
+[1.901s] -- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/camera
+[1.902s] -- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/stereo_depth
+[1.903s] -- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/stereo_pair
+[1.904s] -- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/yolo
+[1.904s] -- Up-to-date symlink: /ws/install/rae_camera/lib/rae_camera/perception_ipc_rtabmap
+[1.909s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/launch/perception_ipc.launch.py
+[1.909s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/launch/rae_camera.launch.py
+[1.910s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/cal.json
+[1.910s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/camera.yaml
+[1.910s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/ipc.yaml
+[1.911s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/laserscan_kinect.yaml
+[1.911s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/config/yolo.json
+[1.912s] -- Up-to-date symlink: /ws/install/rae_camera/share/ament_index/resource_index/package_run_dependencies/rae_camera
+[1.913s] -- Up-to-date symlink: /ws/install/rae_camera/share/ament_index/resource_index/parent_prefix_path/rae_camera
+[1.913s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.sh
+[1.913s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.dsv
+[1.914s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/path.sh
+[1.914s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/environment/path.dsv
+[1.915s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.bash
+[1.915s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.sh
+[1.916s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.zsh
+[1.916s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/local_setup.dsv
+[1.917s] -- Symlinking: /ws/install/rae_camera/share/rae_camera/package.dsv
+[1.977s] -- Up-to-date symlink: /ws/install/rae_camera/share/ament_index/resource_index/packages/rae_camera
+[1.978s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.979s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.980s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig.cmake
+[1.980s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig-version.cmake
+[1.981s] -- Up-to-date symlink: /ws/install/rae_camera/share/rae_camera/package.xml
+[1.985s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xany.hpp
+[1.986s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xbasic_fixed_string.hpp
+[1.986s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xbase64.hpp
+[1.986s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xclosure.hpp
+[1.987s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xcomplex.hpp
+[1.987s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xcomplex_sequence.hpp
+[1.988s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xspan.hpp
+[1.988s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xspan_impl.hpp
+[1.989s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xdynamic_bitset.hpp
+[1.989s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xfunctional.hpp
+[1.989s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xhalf_float.hpp
+[1.990s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xhalf_float_impl.hpp
+[1.990s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xhash.hpp
+[1.990s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xhierarchy_generator.hpp
+[1.991s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xiterator_base.hpp
+[1.991s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xjson.hpp
+[1.991s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xmasked_value_meta.hpp
+[1.992s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xmasked_value.hpp
+[1.992s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xmeta_utils.hpp
+[1.992s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xmultimethods.hpp
+[1.992s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional_meta.hpp
+[1.992s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional.hpp
+[1.993s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xoptional_sequence.hpp
+[1.993s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xplatform.hpp
+[1.993s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xproxy_wrapper.hpp
+[1.993s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xsequence.hpp
+[1.993s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xsystem.hpp
+[1.994s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xtl_config.hpp
+[1.994s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xtype_traits.hpp
+[1.994s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xvariant.hpp
+[1.994s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xvariant_impl.hpp
+[1.994s] -- Up-to-date: /ws/install/rae_camera/include/xtl/xvisitor.hpp
+[1.995s] -- Up-to-date: /ws/install/rae_camera/share/cmake/xtl/xtlTargets.cmake
+[1.996s] -- Up-to-date: /ws/install/rae_camera/lib/cmake/xtensor/xtensorTargets.cmake
+[1.998s] Invoked command in '/ws/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_camera

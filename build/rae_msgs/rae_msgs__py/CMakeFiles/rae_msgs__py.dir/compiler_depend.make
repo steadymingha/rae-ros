@@ -1,0 +1,2 @@
+# Empty custom commands generated dependencies file for rae_msgs__py.
+# This may be replaced when dependencies are built.

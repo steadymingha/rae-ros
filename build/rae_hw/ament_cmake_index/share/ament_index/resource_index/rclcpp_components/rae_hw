@@ -1,0 +1,5 @@
+rae_hw::BatteryNode;lib/librae_hw.so
+rae_hw::LCDNode;lib/librae_hw.so
+rae_hw::LEDNode;lib/librae_hw.so
+rae_hw::MicNode;lib/librae_hw.so
+rae_hw::SpeakersNode;lib/librae_hw.so

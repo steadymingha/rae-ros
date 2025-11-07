@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/rae-ros/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_camera -DCMAKE_INSTALL_PREFIX=/ws/src/rae-ros/install/rae_camera
+Invoked command in '/ws/src/rae-ros/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_camera -DCMAKE_INSTALL_PREFIX=/ws/src/rae-ros/install/rae_camera
+Invoking command in '/ws/src/rae-ros/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/src/rae-ros/build/rae_camera -- -j12 -l12
+Invoked command in '/ws/src/rae-ros/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/src/rae-ros/build/rae_camera -- -j12 -l12
+Invoking command in '/ws/src/rae-ros/build/rae_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/src/rae-ros/build/rae_camera
+Invoked command in '/ws/src/rae-ros/build/rae_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/src/rae-ros/build/rae_camera

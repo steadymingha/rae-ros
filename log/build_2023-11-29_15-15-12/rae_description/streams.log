@@ -1,0 +1,51 @@
+[0.486s] Invoking command in '/ws/build/rae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_description
+[2.259s] -- The C compiler identification is GNU 11.4.0
+[3.792s] -- The CXX compiler identification is GNU 11.4.0
+[3.944s] -- Detecting C compiler ABI info
+[6.020s] -- Detecting C compiler ABI info - done
+[6.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.198s] -- Detecting C compile features
+[6.206s] -- Detecting C compile features - done
+[6.247s] -- Detecting CXX compiler ABI info
+[8.327s] -- Detecting CXX compiler ABI info - done
+[8.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.498s] -- Detecting CXX compile features
+[8.507s] -- Detecting CXX compile features - done
+[8.561s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.984s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[14.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.916s] -- Configuring done
+[15.961s] -- Generating done
+[15.976s] -- Build files have been written to: /ws/build/rae_description
+[16.022s] Invoked command in '/ws/build/rae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_description
+[16.035s] Invoking command in '/ws/build/rae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_description -- -j4 -l4
+[17.015s] Invoked command in '/ws/build/rae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_description -- -j4 -l4
+[18.067s] Invoking command in '/ws/build/rae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_description
+[18.285s] -- Install configuration: "RelWithDebInfo"
+[18.308s] -- Execute custom install script
+[18.334s] -- Symlinking: /ws/install/rae_description/share/rae_description//launch/rsp.launch.py
+[18.509s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/camera.urdf.xacro
+[18.667s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/inertial_moment_calc.xacro
+[18.823s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/models/RAE-TOP-ASSY_0417.STL
+[18.981s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/models/caster-wheel.stl
+[19.137s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/models/rae.stl
+[19.295s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/rae.urdf.xacro
+[19.452s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/rae_core.urdf.xacro
+[19.615s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/rae_gazebo_control.urdf.xacro
+[19.775s] -- Symlinking: /ws/install/rae_description/share/rae_description//urdf/rae_ros2_control.urdf.xacro
+[19.935s] -- Symlinking: /ws/install/rae_description/share/ament_index/resource_index/package_run_dependencies/rae_description
+[20.101s] -- Symlinking: /ws/install/rae_description/share/ament_index/resource_index/parent_prefix_path/rae_description
+[20.265s] -- Symlinking: /ws/install/rae_description/share/rae_description/environment/ament_prefix_path.sh
+[20.428s] -- Symlinking: /ws/install/rae_description/share/rae_description/environment/ament_prefix_path.dsv
+[20.593s] -- Symlinking: /ws/install/rae_description/share/rae_description/environment/path.sh
+[20.768s] -- Symlinking: /ws/install/rae_description/share/rae_description/environment/path.dsv
+[20.943s] -- Symlinking: /ws/install/rae_description/share/rae_description/local_setup.bash
+[21.118s] -- Symlinking: /ws/install/rae_description/share/rae_description/local_setup.sh
+[21.291s] -- Symlinking: /ws/install/rae_description/share/rae_description/local_setup.zsh
+[21.468s] -- Symlinking: /ws/install/rae_description/share/rae_description/local_setup.dsv
+[21.650s] -- Symlinking: /ws/install/rae_description/share/rae_description/package.dsv
+[21.825s] -- Symlinking: /ws/install/rae_description/share/ament_index/resource_index/packages/rae_description
+[21.997s] -- Symlinking: /ws/install/rae_description/share/rae_description/cmake/rae_descriptionConfig.cmake
+[22.169s] -- Symlinking: /ws/install/rae_description/share/rae_description/cmake/rae_descriptionConfig-version.cmake
+[22.346s] -- Symlinking: /ws/install/rae_description/share/rae_description/package.xml
+[22.529s] Invoked command in '/ws/build/rae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_description

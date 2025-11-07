@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rae_msgs/srv/PlayAudio.srv
+// generated code does not contain a copyright notice
+
+
+module rae_msgs {
+  module srv {
+    struct PlayAudio_Request {
+      string mp3_file;
+    };
+    struct PlayAudio_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,166 @@
+CMake Warning (dev) at CMakeLists.txt:67 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /ws/src/rae-ros/rae_camera/src/perception_ipc_rtabmap.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+/ws/src/rae-ros/rae_camera/src/camera.cpp: In function ‘dai::Pipeline createPipeline(bool, bool)’:
+/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56: warning: ‘dai::CameraBoardSocket::RGB’ is deprecated [-Wdeprecated-declarations]
+   29 |         camRgb->setBoardSocket(dai::CameraBoardSocket::RGB);
+      |                                                        ^~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5: note: declared here
+   23 |     RGB [[deprecated]] = CAM_A,
+      |     ^~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56: warning: ‘dai::CameraBoardSocket::RGB’ is deprecated [-Wdeprecated-declarations]
+   29 |         camRgb->setBoardSocket(dai::CameraBoardSocket::RGB);
+      |                                                        ^~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5: note: declared here
+   23 |     RGB [[deprecated]] = CAM_A,
+      |     ^~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   58 |     leftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                       ^~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   58 |     leftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                       ^~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   60 |     rightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                        ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   60 |     rightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                        ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp: In function ‘int main(int, char**)’:
+/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+  198 |         sensor_msgs::msg::CameraInfo rgbCameraInfo = rgbConverter.calibrationToCameraInfo(calibrationHandler, dai::CameraBoardSocket::RIGHT, width, height);;
+      |                                                                                                                                       ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+  198 |         sensor_msgs::msg::CameraInfo rgbCameraInfo = rgbConverter.calibrationToCameraInfo(calibrationHandler, dai::CameraBoardSocket::RIGHT, width, height);;
+      |                                                                                                                                       ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp: In function ‘int main(int, char**)’:
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   68 |     monoLeft->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                      ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   68 |     monoLeft->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                      ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   70 |     monoRight->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                       ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   70 |     monoRight->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                       ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp: In function ‘int main()’:
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   36 |     monoLeftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                           ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   36 |     monoLeftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                           ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   38 |     monoRightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                            ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   38 |     monoRightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                            ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~

@@ -1,0 +1,8 @@
+source;share/rae_description/hook/cmake_prefix_path.ps1
+source;share/rae_description/hook/cmake_prefix_path.dsv
+source;share/rae_description/hook/cmake_prefix_path.sh
+source;share/rae_description/local_setup.bash
+source;share/rae_description/local_setup.dsv
+source;share/rae_description/local_setup.ps1
+source;share/rae_description/local_setup.sh
+source;share/rae_description/local_setup.zsh

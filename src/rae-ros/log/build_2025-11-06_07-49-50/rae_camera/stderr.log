@@ -1,0 +1,166 @@
+[33mCMake Warning (dev) at CMakeLists.txt:67 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /ws/src/rae-ros/rae_camera/src/perception_ipc_rtabmap.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:[m[K In function ‘[01m[Kdai::Pipeline createPipeline(bool, bool)[m[K’:
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RGB[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   29 |         camRgb->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRGB[m[K);
+      |                                                        [01;35m[K^~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   23 |     [01;36m[KRGB[m[K [[deprecated]] = CAM_A,
+      |     [01;36m[K^~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RGB[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   29 |         camRgb->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRGB[m[K);
+      |                                                        [01;35m[K^~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   23 |     [01;36m[KRGB[m[K [[deprecated]] = CAM_A,
+      |     [01;36m[K^~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |     leftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+      |                                                       [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+      |     [01;36m[K^~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |     leftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+      |                                                       [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+      |     [01;36m[K^~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   60 |     rightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   60 |     rightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+      |                                                        [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  198 |         sensor_msgs::msg::CameraInfo rgbCameraInfo = rgbConverter.calibrationToCameraInfo(calibrationHandler, dai::CameraBoardSocket::[01;35m[KRIGHT[m[K, width, height);;
+      |                                                                                                                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  198 |         sensor_msgs::msg::CameraInfo rgbCameraInfo = rgbConverter.calibrationToCameraInfo(calibrationHandler, dai::CameraBoardSocket::[01;35m[KRIGHT[m[K, width, height);;
+      |                                                                                                                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/common/CameraBoardSocket.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/device/DeviceBase.hpp:18[m[K,
+                 from [01m[K/usr/local/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/camera.cpp:13[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   68 |     monoLeft->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+      |                                                      [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+      |     [01;36m[K^~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   68 |     monoLeft->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+      |                                                      [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+      |     [01;36m[K^~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   70 |     monoRight->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+      |                                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   70 |     monoRight->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+      |                                                       [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/yolo.cpp:5[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |     monoLeftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+      |                                                           [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+      |     [01;36m[K^~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::LEFT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   36 |     monoLeftFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KLEFT[m[K);
+      |                                                           [01;35m[K^~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   25 |     [01;36m[KLEFT[m[K [[deprecated]] = CAM_B,
+      |     [01;36m[K^~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   38 |     monoRightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+      |                                                            [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K
+[01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdai::CameraBoardSocket::RIGHT[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   38 |     monoRightFront->setBoardSocket(dai::CameraBoardSocket::[01;35m[KRIGHT[m[K);
+      |                                                            [01;35m[K^~~~~[m[K
+In file included from [01m[K/usr/local/include/depthai/device/CalibrationHandler.hpp:5[m[K,
+                 from [01m[K/usr/local/include/depthai/depthai.hpp:9[m[K,
+                 from [01m[K/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4[m[K:
+[01m[K/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     [01;36m[KRIGHT[m[K [[deprecated]] = CAM_C,
+      |     [01;36m[K^~~~~[m[K

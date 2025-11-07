@@ -1,0 +1,3 @@
+source;share/rae_hw/environment/ament_prefix_path.sh
+source;share/rae_hw/environment/library_path.sh
+source;share/rae_hw/environment/path.sh

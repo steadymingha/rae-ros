@@ -1,0 +1,416 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- xtl v0.7.4
+-- Building xtensor v0.24.3
+-- Found xtl v0.7.4
+-- Found depthai_bridge: 2.8.2 (/underlay_ws/install/depthai_bridge/share/depthai_bridge/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rtabmap_slam: 0.21.1 (/opt/ros/humble/share/rtabmap_slam/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+-- Found depthai_ros_driver: 2.8.2 (/underlay_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake)
+-- Found ira_laser_tools: 2.0.7 (/underlay_ws/install/ira_laser_tools/share/ira_laser_tools/cmake)
+-- Found image_proc: 3.0.0 (/opt/ros/humble/share/image_proc/cmake)
+-- Found laserscan_kinect: 1.1.0 (/underlay_ws/install/laserscan_kinect/share/laserscan_kinect/cmake)
+-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") found components: imgproc highgui 
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:67 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /ws/src/rae-ros/rae_camera/src/perception_ipc_rtabmap.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /ws/build/rae_camera
+[ 10%] Building CXX object CMakeFiles/stereo_depth.dir/src/stereo_depth.cpp.o
+[ 20%] Building CXX object CMakeFiles/camera.dir/src/camera.cpp.o
+[ 30%] Building CXX object CMakeFiles/stereo_pair.dir/src/stereo_pair.cpp.o
+[ 40%] Building CXX object CMakeFiles/yolo.dir/src/yolo.cpp.o
+/ws/src/rae-ros/rae_camera/src/camera.cpp: In function ‘dai::Pipeline createPipeline(bool, bool)’:
+/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56: warning: ‘dai::CameraBoardSocket::RGB’ is deprecated [-Wdeprecated-declarations]
+   29 |         camRgb->setBoardSocket(dai::CameraBoardSocket::RGB);
+      |                                                        ^~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5: note: declared here
+   23 |     RGB [[deprecated]] = CAM_A,
+      |     ^~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:29:56: warning: ‘dai::CameraBoardSocket::RGB’ is deprecated [-Wdeprecated-declarations]
+   29 |         camRgb->setBoardSocket(dai::CameraBoardSocket::RGB);
+      |                                                        ^~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:23:5: note: declared here
+   23 |     RGB [[deprecated]] = CAM_A,
+      |     ^~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   58 |     leftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                       ^~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:58:55: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   58 |     leftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                       ^~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   60 |     rightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                        ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:60:56: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   60 |     rightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                        ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp: In function ‘int main(int, char**)’:
+/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+  198 |         sensor_msgs::msg::CameraInfo rgbCameraInfo = rgbConverter.calibrationToCameraInfo(calibrationHandler, dai::CameraBoardSocket::RIGHT, width, height);;
+      |                                                                                                                                       ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/camera.cpp:198:135: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+  198 |         sensor_msgs::msg::CameraInfo rgbCameraInfo = rgbConverter.calibrationToCameraInfo(calibrationHandler, dai::CameraBoardSocket::RIGHT, width, height);;
+      |                                                                                                                                       ^~~~~
+In file included from /usr/local/include/depthai/common/CameraBoardSocket.hpp:5,
+                 from /usr/local/include/depthai/device/DeviceBase.hpp:18,
+                 from /usr/local/include/depthai/device/Device.hpp:14,
+                 from /ws/src/rae-ros/rae_camera/src/camera.cpp:13:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp: In function ‘int main(int, char**)’:
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   68 |     monoLeft->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                      ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:68:54: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   68 |     monoLeft->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                      ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   70 |     monoRight->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                       ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/yolo.cpp:70:55: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   70 |     monoRight->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                       ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/yolo.cpp:5:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp: In function ‘int main()’:
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   36 |     monoLeftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                           ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:36:59: warning: ‘dai::CameraBoardSocket::LEFT’ is deprecated [-Wdeprecated-declarations]
+   36 |     monoLeftFront->setBoardSocket(dai::CameraBoardSocket::LEFT);
+      |                                                           ^~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:25:5: note: declared here
+   25 |     LEFT [[deprecated]] = CAM_B,
+      |     ^~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   38 |     monoRightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                            ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+/ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:38:60: warning: ‘dai::CameraBoardSocket::RIGHT’ is deprecated [-Wdeprecated-declarations]
+   38 |     monoRightFront->setBoardSocket(dai::CameraBoardSocket::RIGHT);
+      |                                                            ^~~~~
+In file included from /usr/local/include/depthai/device/CalibrationHandler.hpp:5,
+                 from /usr/local/include/depthai/depthai.hpp:9,
+                 from /ws/src/rae-ros/rae_camera/src/stereo_depth.cpp:4:
+/usr/local/include/depthai-shared/common/CameraBoardSocket.hpp:26:5: note: declared here
+   26 |     RIGHT [[deprecated]] = CAM_C,
+      |     ^~~~~
+[ 50%] Linking CXX executable stereo_pair
+[ 50%] Built target stereo_pair
+[ 60%] Linking CXX executable stereo_depth
+[ 60%] Built target stereo_depth
+[ 70%] Linking CXX executable camera
+[ 70%] Built target camera
+[ 80%] Linking CXX executable yolo
+[ 80%] Built target yolo
+[ 90%] Building CXX object CMakeFiles/perception_ipc_rtabmap.dir/src/perception_ipc_rtabmap.cpp.o
+[100%] Linking CXX executable perception_ipc_rtabmap
+[100%] Built target perception_ipc_rtabmap
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Symlinking: /ws/install/rae_camera/share/cmake/xtl/xtlConfig.cmake
+-- Symlinking: /ws/install/rae_camera/share/cmake/xtl/xtlConfigVersion.cmake
+-- Symlinking: /ws/install/rae_camera/share/pkgconfig//xtl.pc
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xaccessible.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xaccumulator.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xadapt.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xarray.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xassign.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xaxis_iterator.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xaxis_slice_iterator.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xblockwise_reducer.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xblockwise_reducer_functors.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xbroadcast.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xbuffer_adaptor.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xbuilder.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xchunked_array.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xchunked_assign.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xchunked_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xcomplex.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xcontainer.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xcsv.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xdynamic_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xeval.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xexception.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xexpression.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xexpression_holder.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xexpression_traits.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xfixed.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xfunction.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xfunctor_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xgenerator.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xhistogram.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xindex_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xinfo.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xio.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xiterable.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xiterator.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xjson.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xlayout.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xmanipulation.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xmasked_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xmath.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xmime.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xmultiindex_iterator.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xnoalias.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xnorm.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xnpy.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xoffset_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xoperation.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xoptional.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xoptional_assembly.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xoptional_assembly_base.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xoptional_assembly_storage.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xpad.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xrandom.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xreducer.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xrepeat.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xscalar.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xsemantic.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xset_operation.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xshape.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xslice.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xsort.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xstorage.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xstrided_view.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xstrided_view_base.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xstrides.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xtensor.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xtensor_config.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xtensor_forward.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xtensor_simd.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xutils.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xvectorize.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xview.hpp
+-- Symlinking: /ws/install/rae_camera/include/xtensor/xview_utils.hpp
+-- Symlinking: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfig.cmake
+-- Symlinking: /ws/install/rae_camera/lib/cmake/xtensor/xtensorConfigVersion.cmake
+-- Symlinking: /ws/install/rae_camera/lib/pkgconfig//xtensor.pc
+-- Symlinking: /ws/install/rae_camera/include/xtensor.hpp
+-- Symlinking: /ws/install/rae_camera/lib/rae_camera/camera
+-- Symlinking: /ws/install/rae_camera/lib/rae_camera/stereo_depth
+-- Symlinking: /ws/install/rae_camera/lib/rae_camera/stereo_pair
+-- Symlinking: /ws/install/rae_camera/lib/rae_camera/yolo
+-- Symlinking: /ws/install/rae_camera/lib/rae_camera/perception_ipc_rtabmap
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/launch/perception_ipc.launch.py
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/launch/rae_camera.launch.py
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/config/cal.json
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/config/camera.yaml
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/config/ipc.yaml
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/config/laserscan_kinect.yaml
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/config/yolo.json
+-- Symlinking: /ws/install/rae_camera/share/ament_index/resource_index/package_run_dependencies/rae_camera
+-- Symlinking: /ws/install/rae_camera/share/ament_index/resource_index/parent_prefix_path/rae_camera
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.sh
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/environment/ament_prefix_path.dsv
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/environment/path.sh
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/environment/path.dsv
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/local_setup.bash
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/local_setup.sh
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/local_setup.zsh
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/local_setup.dsv
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/package.dsv
+-- Symlinking: /ws/install/rae_camera/share/ament_index/resource_index/packages/rae_camera
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig.cmake
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/cmake/rae_cameraConfig-version.cmake
+-- Symlinking: /ws/install/rae_camera/share/rae_camera/package.xml
+-- Installing: /ws/install/rae_camera/include/xtl/xany.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xbasic_fixed_string.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xbase64.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xclosure.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xcomplex.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xcomplex_sequence.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xspan.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xspan_impl.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xdynamic_bitset.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xfunctional.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xhalf_float.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xhalf_float_impl.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xhash.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xhierarchy_generator.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xiterator_base.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xjson.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xmasked_value_meta.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xmasked_value.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xmeta_utils.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xmultimethods.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xoptional_meta.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xoptional.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xoptional_sequence.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xplatform.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xproxy_wrapper.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xsequence.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xsystem.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xtl_config.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xtype_traits.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xvariant.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xvariant_impl.hpp
+-- Installing: /ws/install/rae_camera/include/xtl/xvisitor.hpp
+-- Installing: /ws/install/rae_camera/share/cmake/xtl/xtlTargets.cmake
+-- Installing: /ws/install/rae_camera/lib/cmake/xtensor/xtensorTargets.cmake

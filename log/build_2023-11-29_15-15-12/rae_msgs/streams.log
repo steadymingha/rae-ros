@@ -1,0 +1,229 @@
+[1.601s] Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_msgs
+[3.346s] -- The C compiler identification is GNU 11.4.0
+[4.861s] -- The CXX compiler identification is GNU 11.4.0
+[5.011s] -- Detecting C compiler ABI info
+[7.082s] -- Detecting C compiler ABI info - done
+[7.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.228s] -- Detecting C compile features
+[7.235s] -- Detecting C compile features - done
+[7.276s] -- Detecting CXX compiler ABI info
+[9.347s] -- Detecting CXX compiler ABI info - done
+[9.483s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.485s] -- Detecting CXX compile features
+[9.493s] -- Detecting CXX compile features - done
+[9.544s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[14.075s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[15.293s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.751s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[16.294s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[16.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[16.545s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[16.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.258s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[24.249s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[30.695s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[33.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[33.837s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[33.865s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[34.232s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[34.232s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[34.233s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[34.234s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[34.576s] -- Found PythonExtra: .so  
+[35.285s] -- Configuring done
+[35.548s] -- Generating done
+[35.564s] -- Build files have been written to: /ws/build/rae_msgs
+[35.603s] Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake /ws/src/rae-ros/rae_msgs -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/rae_msgs
+[35.613s] Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_msgs -- -j4 -l4
+[36.372s] [  2%] Generating C code for ROS interfaces
+[36.755s] [  5%] Generating C++ code for ROS interfaces
+[36.843s] [  5%] Built target ament_cmake_python_symlink_rae_msgs
+[40.980s] running egg_info
+[40.988s] creating rae_msgs.egg-info
+[40.991s] writing rae_msgs.egg-info/PKG-INFO
+[40.993s] writing dependency_links to rae_msgs.egg-info/dependency_links.txt
+[40.996s] writing top-level names to rae_msgs.egg-info/top_level.txt
+[40.998s] writing manifest file 'rae_msgs.egg-info/SOURCES.txt'
+[41.024s] reading manifest file 'rae_msgs.egg-info/SOURCES.txt'
+[41.031s] writing manifest file 'rae_msgs.egg-info/SOURCES.txt'
+[41.341s] [  5%] Built target ament_cmake_python_build_rae_msgs_egg
+[43.627s] [  7%] Building C object CMakeFiles/rae_msgs__rosidl_generator_c.dir/rosidl_generator_c/rae_msgs/srv/detail/play_audio__functions.c.o
+[43.632s] [ 10%] Building C object CMakeFiles/rae_msgs__rosidl_generator_c.dir/rosidl_generator_c/rae_msgs/msg/detail/led_control__functions.c.o
+[43.693s] [ 10%] Built target rae_msgs__cpp
+[44.140s] [ 12%] Generating C++ introspection for ROS interfaces
+[44.205s] [ 15%] Generating C++ type support for eProsima Fast-RTPS
+[48.183s] [ 17%] Generating C++ type support dispatch for ROS interfaces
+[48.956s] [ 20%] Linking C shared library librae_msgs__rosidl_generator_c.so
+[50.188s] [ 20%] Built target rae_msgs__rosidl_generator_c
+[50.602s] [ 23%] Generating C type support for eProsima Fast-RTPS
+[52.807s] [ 25%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rae_msgs/msg/detail/led_control__type_support.cpp.o
+[52.891s] [ 28%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rae_msgs/msg/detail/dds_fastrtps/led_control__type_support.cpp.o
+[55.478s] [ 30%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rae_msgs/msg/led_control__type_support.cpp.o
+[59.674s] [ 33%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rae_msgs/msg/detail/led_control__type_support_c.cpp.o
+[63.499s] [ 35%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rae_msgs/srv/play_audio__type_support.cpp.o
+[65.522s] [ 38%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rae_msgs/srv/detail/dds_fastrtps/play_audio__type_support.cpp.o
+[66.121s] [ 41%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rae_msgs/srv/detail/play_audio__type_support.cpp.o
+[70.453s] [ 43%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rae_msgs/srv/detail/play_audio__type_support_c.cpp.o
+[70.819s] [ 46%] Linking CXX shared library librae_msgs__rosidl_typesupport_cpp.so
+[71.924s] [ 46%] Built target rae_msgs__rosidl_typesupport_cpp
+[72.246s] [ 48%] Generating C introspection for ROS interfaces
+[76.684s] [ 51%] Linking CXX shared library librae_msgs__rosidl_typesupport_introspection_cpp.so
+[76.913s] [ 53%] Linking CXX shared library librae_msgs__rosidl_typesupport_fastrtps_cpp.so
+[78.028s] [ 53%] Built target rae_msgs__rosidl_typesupport_introspection_cpp
+[78.384s] [ 56%] Generating C type support dispatch for ROS interfaces
+[78.586s] [ 56%] Built target rae_msgs__rosidl_typesupport_fastrtps_cpp
+[80.190s] [ 58%] Building C object CMakeFiles/rae_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rae_msgs/msg/detail/led_control__type_support.c.o
+[80.318s] [ 61%] Building C object CMakeFiles/rae_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rae_msgs/srv/detail/play_audio__type_support.c.o
+[81.784s] [ 64%] Linking CXX shared library librae_msgs__rosidl_typesupport_fastrtps_c.so
+[82.784s] [ 66%] Linking C shared library librae_msgs__rosidl_typesupport_introspection_c.so
+[82.905s] [ 66%] Built target rae_msgs__rosidl_typesupport_fastrtps_c
+[83.465s] [ 66%] Built target rae_msgs__rosidl_typesupport_introspection_c
+[84.040s] [ 69%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rae_msgs/msg/led_control__type_support.cpp.o
+[84.058s] [ 71%] Building CXX object CMakeFiles/rae_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rae_msgs/srv/play_audio__type_support.cpp.o
+[85.403s] [ 74%] Linking CXX shared library librae_msgs__rosidl_typesupport_c.so
+[85.937s] [ 74%] Built target rae_msgs__rosidl_typesupport_c
+[86.354s] [ 74%] Built target rae_msgs
+[86.744s] [ 76%] Generating Python code for ROS interfaces
+[91.622s] [ 76%] Built target rae_msgs__py
+[92.061s] [ 79%] Building C object CMakeFiles/rae_msgs__rosidl_generator_py.dir/rosidl_generator_py/rae_msgs/msg/_led_control_s.c.o
+[92.077s] [ 82%] Building C object CMakeFiles/rae_msgs__rosidl_generator_py.dir/rosidl_generator_py/rae_msgs/srv/_play_audio_s.c.o
+[96.147s] [ 84%] Linking C shared library rosidl_generator_py/rae_msgs/librae_msgs__rosidl_generator_py.so
+[96.668s] [ 84%] Built target rae_msgs__rosidl_generator_py
+[97.265s] [ 87%] Building C object CMakeFiles/rae_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rae_msgs/_rae_msgs_s.ep.rosidl_typesupport_c.c.o
+[97.274s] [ 89%] Building C object CMakeFiles/rae_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rae_msgs/_rae_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[97.280s] [ 92%] Building C object CMakeFiles/rae_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rae_msgs/_rae_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[101.164s] [ 94%] Linking C shared library rosidl_generator_py/rae_msgs/rae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[101.351s] [ 97%] Linking C shared library rosidl_generator_py/rae_msgs/rae_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[101.372s] [100%] Linking C shared library rosidl_generator_py/rae_msgs/rae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[101.990s] [100%] Built target rae_msgs__rosidl_typesupport_introspection_c__pyext
+[102.164s] [100%] Built target rae_msgs__rosidl_typesupport_fastrtps_c__pyext
+[102.191s] [100%] Built target rae_msgs__rosidl_typesupport_c__pyext
+[102.329s] Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --build /ws/build/rae_msgs -- -j4 -l4
+[104.851s] Invoking command in '/ws/build/rae_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_msgs
+[104.988s] -- Install configuration: "RelWithDebInfo"
+[104.996s] -- Execute custom install script
+[105.004s] -- Symlinking: /ws/install/rae_msgs/share/ament_index/resource_index/rosidl_interfaces/rae_msgs
+[105.119s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__functions.h
+[105.218s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__struct.h
+[105.319s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__type_support.h
+[105.419s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/led_control.h
+[105.519s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/rosidl_generator_c__visibility_control.h
+[105.619s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__functions.h
+[105.719s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__struct.h
+[105.818s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__type_support.h
+[105.918s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/play_audio.h
+[106.020s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/library_path.sh
+[106.119s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/library_path.dsv
+[106.220s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__rosidl_typesupport_fastrtps_c.h
+[106.319s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[106.419s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__rosidl_typesupport_fastrtps_c.h
+[106.520s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__builder.hpp
+[106.619s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__struct.hpp
+[106.718s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__traits.hpp
+[106.818s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/led_control.hpp
+[106.918s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__builder.hpp
+[107.017s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__struct.hpp
+[107.117s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__traits.hpp
+[107.216s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/play_audio.hpp
+[107.318s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__rosidl_typesupport_fastrtps_cpp.hpp
+[107.417s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[107.517s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__rosidl_typesupport_fastrtps_cpp.hpp
+[107.617s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__rosidl_typesupport_introspection_c.h
+[107.715s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[107.815s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__rosidl_typesupport_introspection_c.h
+[107.918s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/msg/detail/led_control__rosidl_typesupport_introspection_cpp.hpp
+[108.019s] -- Symlinking: /ws/install/rae_msgs/include/rae_msgs/rae_msgs/srv/detail/play_audio__rosidl_typesupport_introspection_cpp.hpp
+[108.118s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/pythonpath.sh
+[108.217s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/pythonpath.dsv
+[108.320s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[108.420s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[108.520s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[108.620s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[108.721s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/__init__.py
+[108.819s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/_rae_msgs_s.ep.rosidl_typesupport_c.c
+[108.918s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/_rae_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[109.016s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/_rae_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[109.114s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/librae_msgs__rosidl_generator_py.so
+[109.213s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/msg/__init__.py
+[109.312s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/msg/_led_control.py
+[109.409s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/msg/_led_control_s.c
+[109.508s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/rae_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[109.606s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/rae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[109.706s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/rae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[109.805s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/srv/__init__.py
+[109.903s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/srv/_play_audio.py
+[110.002s] -- Symlinking: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/srv/_play_audio_s.c
+[110.104s] -- Up-to-date symlink: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/rae_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[110.106s] -- Up-to-date symlink: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/rae_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[110.108s] -- Up-to-date symlink: /ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/rae_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[110.109s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/msg/LEDControl.idl
+[110.207s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/srv/PlayAudio.idl
+[110.306s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/msg/LEDControl.msg
+[110.409s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/srv/PlayAudio.srv
+[110.508s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/srv/PlayAudio_Request.msg
+[110.607s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/srv/PlayAudio_Response.msg
+[110.707s] -- Symlinking: /ws/install/rae_msgs/share/ament_index/resource_index/package_run_dependencies/rae_msgs
+[110.806s] -- Symlinking: /ws/install/rae_msgs/share/ament_index/resource_index/parent_prefix_path/rae_msgs
+[110.905s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/ament_prefix_path.sh
+[111.005s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/ament_prefix_path.dsv
+[111.104s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/path.sh
+[111.204s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/environment/path.dsv
+[111.304s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/local_setup.bash
+[111.403s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/local_setup.sh
+[111.503s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/local_setup.zsh
+[111.603s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/local_setup.dsv
+[111.702s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/package.dsv
+[111.801s] -- Symlinking: /ws/install/rae_msgs/share/ament_index/resource_index/packages/rae_msgs
+[111.900s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/rosidl_cmake-extras.cmake
+[111.999s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[112.103s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[112.218s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[112.317s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[112.415s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[112.526s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[112.625s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgsConfig.cmake
+[112.780s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgsConfig-version.cmake
+[112.975s] -- Symlinking: /ws/install/rae_msgs/share/rae_msgs/package.xml
+[113.190s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_generator_c.so
+[113.216s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_generator_c.so" to ""
+[113.218s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_fastrtps_c.so
+[113.226s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[113.227s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_fastrtps_cpp.so
+[113.229s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[113.230s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_introspection_c.so
+[113.232s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_introspection_c.so" to ""
+[113.233s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_c.so
+[113.235s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_c.so" to ""
+[113.237s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_introspection_cpp.so
+[113.239s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[113.241s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_cpp.so
+[113.242s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_typesupport_cpp.so" to ""
+[114.193s] Listing '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs'...
+[114.194s] Compiling '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/__init__.py'...
+[114.196s] Listing '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/msg'...
+[114.197s] Compiling '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/msg/__init__.py'...
+[114.198s] Compiling '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/msg/_led_control.py'...
+[114.199s] Listing '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/srv'...
+[114.200s] Compiling '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/srv/__init__.py'...
+[114.201s] Compiling '/ws/install/rae_msgs/local/lib/python3.10/dist-packages/rae_msgs/srv/_play_audio.py'...
+[114.239s] -- Installing: /ws/install/rae_msgs/lib/librae_msgs__rosidl_generator_py.so
+[114.245s] -- Set runtime path of "/ws/install/rae_msgs/lib/librae_msgs__rosidl_generator_py.so" to ""
+[114.246s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_generator_cExport.cmake
+[114.247s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_generator_cExport-relwithdebinfo.cmake
+[114.250s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[114.252s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[114.255s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_generator_cppExport.cmake
+[114.258s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[114.262s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[114.263s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_introspection_cExport.cmake
+[114.267s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[114.275s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_cExport.cmake
+[114.276s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[114.277s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[114.278s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[114.279s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_cppExport.cmake
+[114.280s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/rae_msgs__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[114.281s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_generator_pyExport.cmake
+[114.282s] -- Installing: /ws/install/rae_msgs/share/rae_msgs/cmake/export_rae_msgs__rosidl_generator_pyExport-relwithdebinfo.cmake
+[114.317s] Invoked command in '/ws/build/rae_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/underlay_ws/install/gst_pipeline:/opt/ros/humble /usr/bin/cmake --install /ws/build/rae_msgs
